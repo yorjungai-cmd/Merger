@@ -79,828 +79,828 @@
       "file_type": "code",
       "source_file": "cbz_merger.py",
       "source_location": "L1",
-      "id": "cbz_merger_py",
       "community": 5,
-      "norm_label": "cbz_merger.py"
+      "norm_label": "cbz_merger.py",
+      "id": "cbz_merger_py"
     },
     {
       "label": "CBZMerger",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L119",
-      "id": "merger_cbz_merger_cbzmerger",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L123",
       "community": 0,
-      "norm_label": "cbzmerger"
+      "norm_label": "cbzmerger",
+      "id": "merger_cbz_merger_cbzmerger"
     },
     {
       "label": ".__init__()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L125",
-      "id": "merger_cbz_merger_cbzmerger_init",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L129",
       "community": 0,
-      "norm_label": ".__init__()"
+      "norm_label": ".__init__()",
+      "id": "merger_cbz_merger_cbzmerger_init"
     },
     {
       "label": ".log()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L129",
-      "id": "merger_cbz_merger_cbzmerger_log",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L133",
       "community": 0,
-      "norm_label": ".log()"
+      "norm_label": ".log()",
+      "id": "merger_cbz_merger_cbzmerger_log"
     },
     {
       "label": ".update_progress()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L134",
-      "id": "merger_cbz_merger_cbzmerger_update_progress",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L138",
       "community": 0,
-      "norm_label": ".update_progress()"
+      "norm_label": ".update_progress()",
+      "id": "merger_cbz_merger_cbzmerger_update_progress"
     },
     {
       "label": ".is_supported_file()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L138",
-      "id": "merger_cbz_merger_cbzmerger_is_supported_file",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L142",
       "community": 0,
-      "norm_label": ".is_supported_file()"
+      "norm_label": ".is_supported_file()",
+      "id": "merger_cbz_merger_cbzmerger_is_supported_file"
     },
     {
       "label": ".is_image_file()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L141",
-      "id": "merger_cbz_merger_cbzmerger_is_image_file",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L145",
       "community": 0,
-      "norm_label": ".is_image_file()"
+      "norm_label": ".is_image_file()",
+      "id": "merger_cbz_merger_cbzmerger_is_image_file"
     },
     {
       "label": ".is_image_folder()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L144",
-      "id": "merger_cbz_merger_cbzmerger_is_image_folder",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L148",
       "community": 0,
-      "norm_label": ".is_image_folder()"
+      "norm_label": ".is_image_folder()",
+      "id": "merger_cbz_merger_cbzmerger_is_image_folder"
     },
     {
       "label": ".find_archives_in_folder()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L153",
-      "id": "merger_cbz_merger_cbzmerger_find_archives_in_folder",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L157",
       "community": 0,
-      "norm_label": ".find_archives_in_folder()"
+      "norm_label": ".find_archives_in_folder()",
+      "id": "merger_cbz_merger_cbzmerger_find_archives_in_folder"
     },
     {
       "label": ".extract_archive()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L165",
-      "id": "merger_cbz_merger_cbzmerger_extract_archive",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L169",
       "community": 0,
-      "norm_label": ".extract_archive()"
+      "norm_label": ".extract_archive()",
+      "id": "merger_cbz_merger_cbzmerger_extract_archive"
     },
     {
       "label": ".natural_sort_key()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L186",
-      "id": "merger_cbz_merger_cbzmerger_natural_sort_key",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L190",
       "community": 0,
-      "norm_label": ".natural_sort_key()"
+      "norm_label": ".natural_sort_key()",
+      "id": "merger_cbz_merger_cbzmerger_natural_sort_key"
     },
     {
       "label": ".collect_images_by_subfolder()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L191",
-      "id": "merger_cbz_merger_cbzmerger_collect_images_by_subfolder",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L195",
       "community": 0,
-      "norm_label": ".collect_images_by_subfolder()"
+      "norm_label": ".collect_images_by_subfolder()",
+      "id": "merger_cbz_merger_cbzmerger_collect_images_by_subfolder"
     },
     {
       "label": ".merge_archives()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L208",
-      "id": "merger_cbz_merger_cbzmerger_merge_archives",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L212",
       "community": 0,
-      "norm_label": ".merge_archives()"
+      "norm_label": ".merge_archives()",
+      "id": "merger_cbz_merger_cbzmerger_merge_archives"
     },
     {
       "label": "SmartNamer",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L297",
-      "id": "merger_cbz_merger_smartnamer",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L301",
       "community": 3,
-      "norm_label": "smartnamer"
+      "norm_label": "smartnamer",
+      "id": "merger_cbz_merger_smartnamer"
     },
     {
       "label": ".suggest()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L300",
-      "id": "merger_cbz_merger_smartnamer_suggest",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L306",
       "community": 3,
-      "norm_label": ".suggest()"
+      "norm_label": ".suggest()",
+      "id": "merger_cbz_merger_smartnamer_suggest"
     },
     {
       "label": "._last_number()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L321",
-      "id": "merger_cbz_merger_smartnamer_last_number",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L342",
       "community": 3,
-      "norm_label": "._last_number()"
+      "norm_label": "._last_number()",
+      "id": "merger_cbz_merger_smartnamer_last_number"
     },
     {
       "label": "._prefix_before_last_number()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L328",
-      "id": "merger_cbz_merger_smartnamer_prefix_before_last_number",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L349",
       "community": 3,
-      "norm_label": "._prefix_before_last_number()"
+      "norm_label": "._prefix_before_last_number()",
+      "id": "merger_cbz_merger_smartnamer_prefix_before_last_number"
     },
     {
       "label": "._common_prefix()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L338",
-      "id": "merger_cbz_merger_smartnamer_common_prefix",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L369",
       "community": 3,
-      "norm_label": "._common_prefix()"
+      "norm_label": "._common_prefix()",
+      "id": "merger_cbz_merger_smartnamer_common_prefix"
     },
     {
       "label": "MergeWorker",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L350",
-      "id": "merger_cbz_merger_mergeworker",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L381",
       "community": 5,
-      "norm_label": "mergeworker"
+      "norm_label": "mergeworker",
+      "id": "merger_cbz_merger_mergeworker"
     },
     {
       "label": "QThread",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
-      "id": "qthread",
       "community": 5,
-      "norm_label": "qthread"
+      "norm_label": "qthread",
+      "id": "qthread"
     },
     {
       "label": ".__init__()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L357",
-      "id": "merger_cbz_merger_mergeworker_init",
-      "community": 5,
-      "norm_label": ".__init__()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L388",
+      "community": 1,
+      "norm_label": ".__init__()",
+      "id": "merger_cbz_merger_mergeworker_init"
     },
     {
       "label": ".run()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L363",
-      "id": "merger_cbz_merger_mergeworker_run",
-      "community": 5,
-      "norm_label": ".run()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L394",
+      "community": 0,
+      "norm_label": ".run()",
+      "id": "merger_cbz_merger_mergeworker_run"
     },
     {
       "label": "FileListWidget",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L372",
-      "id": "merger_cbz_merger_filelistwidget",
-      "community": 4,
-      "norm_label": "filelistwidget"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L403",
+      "community": 5,
+      "norm_label": "filelistwidget",
+      "id": "merger_cbz_merger_filelistwidget"
     },
     {
       "label": "QWidget",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
-      "id": "qwidget",
       "community": 1,
-      "norm_label": "qwidget"
+      "norm_label": "qwidget",
+      "id": "qwidget"
     },
     {
       "label": ".__init__()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L377",
-      "id": "merger_cbz_merger_filelistwidget_init",
-      "community": 4,
-      "norm_label": ".__init__()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L408",
+      "community": 1,
+      "norm_label": ".__init__()",
+      "id": "merger_cbz_merger_filelistwidget_init"
     },
     {
       "label": ".dragEnterEvent()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L391",
-      "id": "merger_cbz_merger_filelistwidget_dragenterevent",
-      "community": 4,
-      "norm_label": ".dragenterevent()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L422",
+      "community": 5,
+      "norm_label": ".dragenterevent()",
+      "id": "merger_cbz_merger_filelistwidget_dragenterevent"
     },
     {
       "label": ".dragLeaveEvent()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L396",
-      "id": "merger_cbz_merger_filelistwidget_dragleaveevent",
-      "community": 4,
-      "norm_label": ".dragleaveevent()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L427",
+      "community": 5,
+      "norm_label": ".dragleaveevent()",
+      "id": "merger_cbz_merger_filelistwidget_dragleaveevent"
     },
     {
       "label": ".dropEvent()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L399",
-      "id": "merger_cbz_merger_filelistwidget_dropevent",
-      "community": 4,
-      "norm_label": ".dropevent()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L430",
+      "community": 5,
+      "norm_label": ".dropevent()",
+      "id": "merger_cbz_merger_filelistwidget_dropevent"
     },
     {
       "label": ".add_items()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L405",
-      "id": "merger_cbz_merger_filelistwidget_add_items",
-      "community": 4,
-      "norm_label": ".add_items()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L436",
+      "community": 0,
+      "norm_label": ".add_items()",
+      "id": "merger_cbz_merger_filelistwidget_add_items"
     },
     {
       "label": ".remove_selected()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L423",
-      "id": "merger_cbz_merger_filelistwidget_remove_selected",
-      "community": 4,
-      "norm_label": ".remove_selected()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L454",
+      "community": 5,
+      "norm_label": ".remove_selected()",
+      "id": "merger_cbz_merger_filelistwidget_remove_selected"
     },
     {
       "label": ".clear()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L431",
-      "id": "merger_cbz_merger_filelistwidget_clear",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L462",
       "community": 1,
-      "norm_label": ".clear()"
+      "norm_label": ".clear()",
+      "id": "merger_cbz_merger_filelistwidget_clear"
     },
     {
       "label": ".move_up()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L436",
-      "id": "merger_cbz_merger_filelistwidget_move_up",
-      "community": 4,
-      "norm_label": ".move_up()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L467",
+      "community": 5,
+      "norm_label": ".move_up()",
+      "id": "merger_cbz_merger_filelistwidget_move_up"
     },
     {
       "label": ".move_down()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L444",
-      "id": "merger_cbz_merger_filelistwidget_move_down",
-      "community": 4,
-      "norm_label": ".move_down()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L475",
+      "community": 5,
+      "norm_label": ".move_down()",
+      "id": "merger_cbz_merger_filelistwidget_move_down"
     },
     {
       "label": ".get_files()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L452",
-      "id": "merger_cbz_merger_filelistwidget_get_files",
-      "community": 1,
-      "norm_label": ".get_files()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L483",
+      "community": 3,
+      "norm_label": ".get_files()",
+      "id": "merger_cbz_merger_filelistwidget_get_files"
     },
     {
       "label": "._refresh_list()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L455",
-      "id": "merger_cbz_merger_filelistwidget_refresh_list",
-      "community": 4,
-      "norm_label": "._refresh_list()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L486",
+      "community": 5,
+      "norm_label": "._refresh_list()",
+      "id": "merger_cbz_merger_filelistwidget_refresh_list"
     },
     {
       "label": "MainWindow",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L479",
-      "id": "merger_cbz_merger_mainwindow",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L510",
       "community": 1,
-      "norm_label": "mainwindow"
+      "norm_label": "mainwindow",
+      "id": "merger_cbz_merger_mainwindow"
     },
     {
       "label": "QMainWindow",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
-      "id": "qmainwindow",
       "community": 1,
-      "norm_label": "qmainwindow"
+      "norm_label": "qmainwindow",
+      "id": "qmainwindow"
     },
     {
       "label": ".__init__()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L482",
-      "id": "merger_cbz_merger_mainwindow_init",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L513",
       "community": 1,
-      "norm_label": ".__init__()"
+      "norm_label": ".__init__()",
+      "id": "merger_cbz_merger_mainwindow_init"
     },
     {
       "label": "._build_ui()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L495",
-      "id": "merger_cbz_merger_mainwindow_build_ui",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L526",
       "community": 1,
-      "norm_label": "._build_ui()"
+      "norm_label": "._build_ui()",
+      "id": "merger_cbz_merger_mainwindow_build_ui"
     },
     {
       "label": "._make_header()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L529",
-      "id": "merger_cbz_merger_mainwindow_make_header",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L560",
       "community": 1,
-      "norm_label": "._make_header()"
+      "norm_label": "._make_header()",
+      "id": "merger_cbz_merger_mainwindow_make_header"
     },
     {
       "label": "._make_toolbar()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L564",
-      "id": "merger_cbz_merger_mainwindow_make_toolbar",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L595",
       "community": 1,
-      "norm_label": "._make_toolbar()"
+      "norm_label": "._make_toolbar()",
+      "id": "merger_cbz_merger_mainwindow_make_toolbar"
     },
     {
       "label": "._make_options_bar()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L587",
-      "id": "merger_cbz_merger_mainwindow_make_options_bar",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L618",
       "community": 1,
-      "norm_label": "._make_options_bar()"
+      "norm_label": "._make_options_bar()",
+      "id": "merger_cbz_merger_mainwindow_make_options_bar"
     },
     {
       "label": "._make_smart_bar()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L617",
-      "id": "merger_cbz_merger_mainwindow_make_smart_bar",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L648",
       "community": 1,
-      "norm_label": "._make_smart_bar()"
+      "norm_label": "._make_smart_bar()",
+      "id": "merger_cbz_merger_mainwindow_make_smart_bar"
     },
     {
       "label": "._make_progress_area()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L638",
-      "id": "merger_cbz_merger_mainwindow_make_progress_area",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L669",
       "community": 1,
-      "norm_label": "._make_progress_area()"
+      "norm_label": "._make_progress_area()",
+      "id": "merger_cbz_merger_mainwindow_make_progress_area"
     },
     {
       "label": "._make_log_panel()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L661",
-      "id": "merger_cbz_merger_mainwindow_make_log_panel",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L692",
       "community": 1,
-      "norm_label": "._make_log_panel()"
+      "norm_label": "._make_log_panel()",
+      "id": "merger_cbz_merger_mainwindow_make_log_panel"
     },
     {
       "label": "._make_footer()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L685",
-      "id": "merger_cbz_merger_mainwindow_make_footer",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L716",
       "community": 1,
-      "norm_label": "._make_footer()"
+      "norm_label": "._make_footer()",
+      "id": "merger_cbz_merger_mainwindow_make_footer"
     },
     {
       "label": "._on_files_changed()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L705",
-      "id": "merger_cbz_merger_mainwindow_on_files_changed",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L736",
       "community": 1,
-      "norm_label": "._on_files_changed()"
+      "norm_label": "._on_files_changed()",
+      "id": "merger_cbz_merger_mainwindow_on_files_changed"
     },
     {
       "label": "._update_smart_bar()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L718",
-      "id": "merger_cbz_merger_mainwindow_update_smart_bar",
-      "community": 1,
-      "norm_label": "._update_smart_bar()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L749",
+      "community": 3,
+      "norm_label": "._update_smart_bar()",
+      "id": "merger_cbz_merger_mainwindow_update_smart_bar"
     },
     {
       "label": "._on_pdf_toggled()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L727",
-      "id": "merger_cbz_merger_mainwindow_on_pdf_toggled",
-      "community": 1,
-      "norm_label": "._on_pdf_toggled()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L758",
+      "community": 3,
+      "norm_label": "._on_pdf_toggled()",
+      "id": "merger_cbz_merger_mainwindow_on_pdf_toggled"
     },
     {
       "label": "._add_files()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L738",
-      "id": "merger_cbz_merger_mainwindow_add_files",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L769",
       "community": 1,
-      "norm_label": "._add_files()"
+      "norm_label": "._add_files()",
+      "id": "merger_cbz_merger_mainwindow_add_files"
     },
     {
       "label": "._add_folder()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L747",
-      "id": "merger_cbz_merger_mainwindow_add_folder",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L778",
       "community": 0,
-      "norm_label": "._add_folder()"
+      "norm_label": "._add_folder()",
+      "id": "merger_cbz_merger_mainwindow_add_folder"
     },
     {
       "label": "._append_log()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L766",
-      "id": "merger_cbz_merger_mainwindow_append_log",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L797",
       "community": 1,
-      "norm_label": "._append_log()"
+      "norm_label": "._append_log()",
+      "id": "merger_cbz_merger_mainwindow_append_log"
     },
     {
       "label": "._clear_log()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L769",
-      "id": "merger_cbz_merger_mainwindow_clear_log",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L800",
       "community": 1,
-      "norm_label": "._clear_log()"
+      "norm_label": "._clear_log()",
+      "id": "merger_cbz_merger_mainwindow_clear_log"
     },
     {
       "label": "._on_progress()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L772",
-      "id": "merger_cbz_merger_mainwindow_on_progress",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L803",
       "community": 1,
-      "norm_label": "._on_progress()"
+      "norm_label": "._on_progress()",
+      "id": "merger_cbz_merger_mainwindow_on_progress"
     },
     {
       "label": "._start_merge()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L778",
-      "id": "merger_cbz_merger_mainwindow_start_merge",
-      "community": 1,
-      "norm_label": "._start_merge()"
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L809",
+      "community": 3,
+      "norm_label": "._start_merge()",
+      "id": "merger_cbz_merger_mainwindow_start_merge"
     },
     {
       "label": "._on_merge_finished()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L811",
-      "id": "merger_cbz_merger_mainwindow_on_merge_finished",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L842",
       "community": 1,
-      "norm_label": "._on_merge_finished()"
+      "norm_label": "._on_merge_finished()",
+      "id": "merger_cbz_merger_mainwindow_on_merge_finished"
     },
     {
       "label": "._auto_clear()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L819",
-      "id": "merger_cbz_merger_mainwindow_auto_clear",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L850",
       "community": 1,
-      "norm_label": "._auto_clear()"
+      "norm_label": "._auto_clear()",
+      "id": "merger_cbz_merger_mainwindow_auto_clear"
     },
     {
       "label": "._toggle_theme()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L824",
-      "id": "merger_cbz_merger_mainwindow_toggle_theme",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L855",
       "community": 1,
-      "norm_label": "._toggle_theme()"
+      "norm_label": "._toggle_theme()",
+      "id": "merger_cbz_merger_mainwindow_toggle_theme"
     },
     {
       "label": "._apply_theme()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L829",
-      "id": "merger_cbz_merger_mainwindow_apply_theme",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L860",
       "community": 1,
-      "norm_label": "._apply_theme()"
+      "norm_label": "._apply_theme()",
+      "id": "merger_cbz_merger_mainwindow_apply_theme"
     },
     {
       "label": "._load_settings()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L833",
-      "id": "merger_cbz_merger_mainwindow_load_settings",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L864",
       "community": 1,
-      "norm_label": "._load_settings()"
+      "norm_label": "._load_settings()",
+      "id": "merger_cbz_merger_mainwindow_load_settings"
     },
     {
       "label": "main()",
       "file_type": "code",
-      "source_file": "cbz_merger.py",
-      "source_location": "L838",
-      "id": "merger_cbz_merger_main",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L869",
       "community": 5,
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "merger_cbz_merger_main"
     },
     {
       "label": "Core logic for merging comic book archives.",
       "file_type": "rationale",
       "source_file": "cbz_merger.py",
       "source_location": "L120",
-      "id": "merger_cbz_merger_rationale_120",
       "community": 0,
-      "norm_label": "core logic for merging comic book archives."
+      "norm_label": "core logic for merging comic book archives.",
+      "id": "merger_cbz_merger_rationale_120"
     },
     {
       "label": "Returns naturally-sorted list of archive files directly inside folderpath.",
       "file_type": "rationale",
       "source_file": "cbz_merger.py",
       "source_location": "L154",
-      "id": "merger_cbz_merger_rationale_154",
       "community": 0,
-      "norm_label": "returns naturally-sorted list of archive files directly inside folderpath."
+      "norm_label": "returns naturally-sorted list of archive files directly inside folderpath.",
+      "id": "merger_cbz_merger_rationale_154"
     },
     {
       "label": "Suggests a merged output filename from a list of input file stems.",
       "file_type": "rationale",
       "source_file": "cbz_merger.py",
       "source_location": "L298",
-      "id": "merger_cbz_merger_rationale_298",
       "community": 3,
-      "norm_label": "suggests a merged output filename from a list of input file stems."
+      "norm_label": "suggests a merged output filename from a list of input file stems.",
+      "id": "merger_cbz_merger_rationale_298"
     },
     {
       "label": "Runs CBZMerger.merge_archives in a background QThread.",
       "file_type": "rationale",
       "source_file": "cbz_merger.py",
       "source_location": "L351",
-      "id": "merger_cbz_merger_rationale_351",
       "community": 5,
-      "norm_label": "runs cbzmerger.merge_archives in a background qthread."
+      "norm_label": "runs cbzmerger.merge_archives in a background qthread.",
+      "id": "merger_cbz_merger_rationale_351"
     },
     {
       "label": "File list panel with native drag-and-drop.",
       "file_type": "rationale",
       "source_file": "cbz_merger.py",
       "source_location": "L373",
-      "id": "merger_cbz_merger_rationale_373",
-      "community": 4,
-      "norm_label": "file list panel with native drag-and-drop."
+      "community": 5,
+      "norm_label": "file list panel with native drag-and-drop.",
+      "id": "merger_cbz_merger_rationale_373"
     },
     {
       "label": "Main application window.",
       "file_type": "rationale",
       "source_file": "cbz_merger.py",
       "source_location": "L480",
-      "id": "merger_cbz_merger_rationale_480",
       "community": 1,
-      "norm_label": "main application window."
+      "norm_label": "main application window.",
+      "id": "merger_cbz_merger_rationale_480"
     },
     {
       "label": "test_core.py",
       "file_type": "code",
       "source_file": "tests/test_core.py",
       "source_location": "L1",
-      "id": "tests_test_core_py",
       "community": 0,
-      "norm_label": "test_core.py"
+      "norm_label": "test_core.py",
+      "id": "tests_test_core_py"
     },
     {
       "label": "test_natural_sort_orders_numerically()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L8",
-      "id": "tests_test_core_test_natural_sort_orders_numerically",
       "community": 0,
-      "norm_label": "test_natural_sort_orders_numerically()"
+      "norm_label": "test_natural_sort_orders_numerically()",
+      "id": "tests_test_core_test_natural_sort_orders_numerically"
     },
     {
       "label": "test_natural_sort_handles_no_digits()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L15",
-      "id": "tests_test_core_test_natural_sort_handles_no_digits",
       "community": 0,
-      "norm_label": "test_natural_sort_handles_no_digits()"
+      "norm_label": "test_natural_sort_handles_no_digits()",
+      "id": "tests_test_core_test_natural_sort_handles_no_digits"
     },
     {
       "label": "test_is_image_file_accepts_common_formats()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L22",
-      "id": "tests_test_core_test_is_image_file_accepts_common_formats",
       "community": 0,
-      "norm_label": "test_is_image_file_accepts_common_formats()"
+      "norm_label": "test_is_image_file_accepts_common_formats()",
+      "id": "tests_test_core_test_is_image_file_accepts_common_formats"
     },
     {
       "label": "test_is_supported_file_accepts_archives()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L32",
-      "id": "tests_test_core_test_is_supported_file_accepts_archives",
       "community": 0,
-      "norm_label": "test_is_supported_file_accepts_archives()"
+      "norm_label": "test_is_supported_file_accepts_archives()",
+      "id": "tests_test_core_test_is_supported_file_accepts_archives"
     },
     {
       "label": "test_extract_cbz_returns_true_and_extracts()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L42",
-      "id": "tests_test_core_test_extract_cbz_returns_true_and_extracts",
       "community": 0,
-      "norm_label": "test_extract_cbz_returns_true_and_extracts()"
+      "norm_label": "test_extract_cbz_returns_true_and_extracts()",
+      "id": "tests_test_core_test_extract_cbz_returns_true_and_extracts"
     },
     {
       "label": "test_extract_missing_file_returns_false()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L55",
-      "id": "tests_test_core_test_extract_missing_file_returns_false",
       "community": 0,
-      "norm_label": "test_extract_missing_file_returns_false()"
+      "norm_label": "test_extract_missing_file_returns_false()",
+      "id": "tests_test_core_test_extract_missing_file_returns_false"
     },
     {
       "label": "test_collect_images_sorted_naturally()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L60",
-      "id": "tests_test_core_test_collect_images_sorted_naturally",
       "community": 0,
-      "norm_label": "test_collect_images_sorted_naturally()"
+      "norm_label": "test_collect_images_sorted_naturally()",
+      "id": "tests_test_core_test_collect_images_sorted_naturally"
     },
     {
       "label": "test_merge_produces_valid_cbz()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L69",
-      "id": "tests_test_core_test_merge_produces_valid_cbz",
       "community": 0,
-      "norm_label": "test_merge_produces_valid_cbz()"
+      "norm_label": "test_merge_produces_valid_cbz()",
+      "id": "tests_test_core_test_merge_produces_valid_cbz"
     },
     {
       "label": "test_merge_empty_input_returns_false()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L82",
-      "id": "tests_test_core_test_merge_empty_input_returns_false",
       "community": 0,
-      "norm_label": "test_merge_empty_input_returns_false()"
+      "norm_label": "test_merge_empty_input_returns_false()",
+      "id": "tests_test_core_test_merge_empty_input_returns_false"
     },
     {
       "label": "test_extract_unsupported_extension_returns_false()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L87",
-      "id": "tests_test_core_test_extract_unsupported_extension_returns_false",
       "community": 0,
-      "norm_label": "test_extract_unsupported_extension_returns_false()"
+      "norm_label": "test_extract_unsupported_extension_returns_false()",
+      "id": "tests_test_core_test_extract_unsupported_extension_returns_false"
     },
     {
       "label": "test_find_archives_in_folder_returns_sorted_archives()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L94",
-      "id": "tests_test_core_test_find_archives_in_folder_returns_sorted_archives",
       "community": 0,
-      "norm_label": "test_find_archives_in_folder_returns_sorted_archives()"
+      "norm_label": "test_find_archives_in_folder_returns_sorted_archives()",
+      "id": "tests_test_core_test_find_archives_in_folder_returns_sorted_archives"
     },
     {
       "label": "test_find_archives_in_folder_empty_when_no_archives()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L103",
-      "id": "tests_test_core_test_find_archives_in_folder_empty_when_no_archives",
       "community": 0,
-      "norm_label": "test_find_archives_in_folder_empty_when_no_archives()"
+      "norm_label": "test_find_archives_in_folder_empty_when_no_archives()",
+      "id": "tests_test_core_test_find_archives_in_folder_empty_when_no_archives"
     },
     {
       "label": "test_find_archives_in_folder_non_recursive()",
       "file_type": "code",
-      "source_file": "tests/test_core.py",
+      "source_file": "Merger/tests/test_core.py",
       "source_location": "L109",
-      "id": "tests_test_core_test_find_archives_in_folder_non_recursive",
       "community": 0,
-      "norm_label": "test_find_archives_in_folder_non_recursive()"
+      "norm_label": "test_find_archives_in_folder_non_recursive()",
+      "id": "tests_test_core_test_find_archives_in_folder_non_recursive"
     },
     {
       "label": "test_smart_namer.py",
       "file_type": "code",
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L1",
-      "id": "tests_test_smart_namer_py",
       "community": 3,
-      "norm_label": "test_smart_namer.py"
+      "norm_label": "test_smart_namer.py",
+      "id": "tests_test_smart_namer_py"
     },
     {
       "label": "test_range_from_typical_chapter_names()",
       "file_type": "code",
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L5",
-      "id": "tests_test_smart_namer_test_range_from_typical_chapter_names",
       "community": 3,
-      "norm_label": "test_range_from_typical_chapter_names()"
+      "norm_label": "test_range_from_typical_chapter_names()",
+      "id": "tests_test_smart_namer_test_range_from_typical_chapter_names"
     },
     {
       "label": "test_single_file_uses_original_name()",
       "file_type": "code",
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L10",
-      "id": "tests_test_smart_namer_test_single_file_uses_original_name",
       "community": 3,
-      "norm_label": "test_single_file_uses_original_name()"
+      "norm_label": "test_single_file_uses_original_name()",
+      "id": "tests_test_smart_namer_test_single_file_uses_original_name"
     },
     {
       "label": "test_no_numbers_falls_back_to_merged_suffix()",
       "file_type": "code",
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L15",
-      "id": "tests_test_smart_namer_test_no_numbers_falls_back_to_merged_suffix",
       "community": 3,
-      "norm_label": "test_no_numbers_falls_back_to_merged_suffix()"
+      "norm_label": "test_no_numbers_falls_back_to_merged_suffix()",
+      "id": "tests_test_smart_namer_test_no_numbers_falls_back_to_merged_suffix"
     },
     {
       "label": "test_non_sequential_numbers_use_min_max()",
       "file_type": "code",
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L20",
-      "id": "tests_test_smart_namer_test_non_sequential_numbers_use_min_max",
       "community": 3,
-      "norm_label": "test_non_sequential_numbers_use_min_max()"
+      "norm_label": "test_non_sequential_numbers_use_min_max()",
+      "id": "tests_test_smart_namer_test_non_sequential_numbers_use_min_max"
     },
     {
       "label": "test_empty_common_prefix_uses_numbers_only()",
       "file_type": "code",
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L25",
-      "id": "tests_test_smart_namer_test_empty_common_prefix_uses_numbers_only",
       "community": 3,
-      "norm_label": "test_empty_common_prefix_uses_numbers_only()"
+      "norm_label": "test_empty_common_prefix_uses_numbers_only()",
+      "id": "tests_test_smart_namer_test_empty_common_prefix_uses_numbers_only"
     },
     {
       "label": "test_empty_list_returns_merged()",
       "file_type": "code",
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L30",
-      "id": "tests_test_smart_namer_test_empty_list_returns_merged",
       "community": 3,
-      "norm_label": "test_empty_list_returns_merged()"
+      "norm_label": "test_empty_list_returns_merged()",
+      "id": "tests_test_smart_namer_test_empty_list_returns_merged"
     },
     {
       "label": "test_all_same_number_no_range()",
       "file_type": "code",
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L35",
-      "id": "tests_test_smart_namer_test_all_same_number_no_range",
       "community": 3,
-      "norm_label": "test_all_same_number_no_range()"
+      "norm_label": "test_all_same_number_no_range()",
+      "id": "tests_test_smart_namer_test_all_same_number_no_range"
     },
     {
       "label": "test_pdf_extension_preserved()",
       "file_type": "code",
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L40",
-      "id": "tests_test_smart_namer_test_pdf_extension_preserved",
       "community": 3,
-      "norm_label": "test_pdf_extension_preserved()"
+      "norm_label": "test_pdf_extension_preserved()",
+      "id": "tests_test_smart_namer_test_pdf_extension_preserved"
     },
     {
       "label": "test_two_files_simple_range()",
       "file_type": "code",
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L45",
-      "id": "tests_test_smart_namer_test_two_files_simple_range",
       "community": 3,
-      "norm_label": "test_two_files_simple_range()"
+      "norm_label": "test_two_files_simple_range()",
+      "id": "tests_test_smart_namer_test_two_files_simple_range"
     },
     {
       "label": "__init__.py",
       "file_type": "code",
       "source_file": "tests/__init__.py",
       "source_location": "L1",
-      "id": "tests_init_py",
       "community": 6,
-      "norm_label": "__init__.py"
+      "norm_label": "__init__.py",
+      "id": "tests_init_py"
     },
     {
       "label": "CBZ Merger Changelog",
@@ -911,9 +911,9 @@
       "captured_at": null,
       "author": "Yor Anupong",
       "contributor": null,
-      "id": "changelog_cbzmerger",
       "community": 2,
-      "norm_label": "cbz merger changelog"
+      "norm_label": "cbz merger changelog",
+      "id": "changelog_cbzmerger"
     },
     {
       "label": "CBZ Merger README",
@@ -924,9 +924,9 @@
       "captured_at": null,
       "author": "Yor Anupong",
       "contributor": null,
-      "id": "readme_cbzmerger",
       "community": 2,
-      "norm_label": "cbz merger readme"
+      "norm_label": "cbz merger readme",
+      "id": "readme_cbzmerger"
     },
     {
       "label": "requirements.txt Dependencies",
@@ -937,9 +937,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "requirements_deps",
       "community": 2,
-      "norm_label": "requirements.txt dependencies"
+      "norm_label": "requirements.txt dependencies",
+      "id": "requirements_deps"
     },
     {
       "label": "CBZ Merger Overhaul Implementation Plan",
@@ -950,9 +950,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "plan_overhaul",
       "community": 2,
-      "norm_label": "cbz merger overhaul implementation plan"
+      "norm_label": "cbz merger overhaul implementation plan",
+      "id": "plan_overhaul"
     },
     {
       "label": "CBZ Merger Overhaul Design Spec",
@@ -963,9 +963,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_overhaul",
       "community": 2,
-      "norm_label": "cbz merger overhaul design spec"
+      "norm_label": "cbz merger overhaul design spec",
+      "id": "spec_overhaul"
     },
     {
       "label": "CBZMerger Class",
@@ -976,9 +976,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "class_cbzmerger",
       "community": 2,
-      "norm_label": "cbzmerger class"
+      "norm_label": "cbzmerger class",
+      "id": "class_cbzmerger"
     },
     {
       "label": "SmartNamer Class",
@@ -989,9 +989,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "class_smartnamer",
       "community": 2,
-      "norm_label": "smartnamer class"
+      "norm_label": "smartnamer class",
+      "id": "class_smartnamer"
     },
     {
       "label": "MergeWorker(QThread) Class",
@@ -1002,9 +1002,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "class_mergeworker",
       "community": 2,
-      "norm_label": "mergeworker(qthread) class"
+      "norm_label": "mergeworker(qthread) class",
+      "id": "class_mergeworker"
     },
     {
       "label": "FileListWidget(QWidget) Class",
@@ -1015,9 +1015,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "class_filelistwidget",
       "community": 2,
-      "norm_label": "filelistwidget(qwidget) class"
+      "norm_label": "filelistwidget(qwidget) class",
+      "id": "class_filelistwidget"
     },
     {
       "label": "MainWindow(QMainWindow) Class",
@@ -1028,9 +1028,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "class_mainwindow",
       "community": 2,
-      "norm_label": "mainwindow(qmainwindow) class"
+      "norm_label": "mainwindow(qmainwindow) class",
+      "id": "class_mainwindow"
     },
     {
       "label": "PyQt6 Dependency",
@@ -1041,9 +1041,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_pyqt6",
       "community": 2,
-      "norm_label": "pyqt6 dependency"
+      "norm_label": "pyqt6 dependency",
+      "id": "dep_pyqt6"
     },
     {
       "label": "rarfile Dependency",
@@ -1054,9 +1054,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_rarfile",
       "community": 2,
-      "norm_label": "rarfile dependency"
+      "norm_label": "rarfile dependency",
+      "id": "dep_rarfile"
     },
     {
       "label": "img2pdf Dependency",
@@ -1067,9 +1067,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_img2pdf",
       "community": 2,
-      "norm_label": "img2pdf dependency"
+      "norm_label": "img2pdf dependency",
+      "id": "dep_img2pdf"
     },
     {
       "label": "Pillow Dependency",
@@ -1080,9 +1080,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_pillow",
       "community": 2,
-      "norm_label": "pillow dependency"
+      "norm_label": "pillow dependency",
+      "id": "dep_pillow"
     },
     {
       "label": "pytest Dependency",
@@ -1093,9 +1093,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dep_pytest",
       "community": 2,
-      "norm_label": "pytest dependency"
+      "norm_label": "pytest dependency",
+      "id": "dep_pytest"
     },
     {
       "label": "CBZMerger Unit Tests (test_core.py)",
@@ -1106,9 +1106,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "test_core",
       "community": 2,
-      "norm_label": "cbzmerger unit tests (test_core.py)"
+      "norm_label": "cbzmerger unit tests (test_core.py)",
+      "id": "test_core"
     },
     {
       "label": "SmartNamer Unit Tests (test_smart_namer.py)",
@@ -1119,9 +1119,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "test_smartnamer",
       "community": 2,
-      "norm_label": "smartnamer unit tests (test_smart_namer.py)"
+      "norm_label": "smartnamer unit tests (test_smart_namer.py)",
+      "id": "test_smartnamer"
     },
     {
       "label": "build.bat PyInstaller Script",
@@ -1132,9 +1132,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "build_bat",
       "community": 2,
-      "norm_label": "build.bat pyinstaller script"
+      "norm_label": "build.bat pyinstaller script",
+      "id": "build_bat"
     },
     {
       "label": "PyQt6 Migration Rationale",
@@ -1146,9 +1146,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Replaced tkinter with PyQt6 for better widgets, native drag-and-drop support, proper layout resizing, and the ability to run merge in a background QThread with thread-safe UI updates via Qt signals \u2014 eliminating the need for tkinter's root.after() polling pattern.",
-      "id": "rationale_pyqt6_migration",
       "community": 2,
-      "norm_label": "pyqt6 migration rationale"
+      "norm_label": "pyqt6 migration rationale",
+      "id": "rationale_pyqt6_migration"
     },
     {
       "label": "SmartNamer Auto-naming Rationale",
@@ -1160,9 +1160,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Analyzes input filenames to suggest a merged output name with number range (e.g. A 1-3.cbz) by extracting the last numeric group from each stem, finding the longest common prefix, and building a min-max range. Falls back to _Merged suffix when no numbers found.",
-      "id": "rationale_smartnamer",
       "community": 2,
-      "norm_label": "smartnamer auto-naming rationale"
+      "norm_label": "smartnamer auto-naming rationale",
+      "id": "rationale_smartnamer"
     },
     {
       "label": "Auto-clear After Merge Rationale",
@@ -1174,9 +1174,9 @@
       "author": null,
       "contributor": null,
       "rationale": "After a successful merge the file list, log, and progress bar reset automatically so the user can start a new merge immediately without manual cleanup.",
-      "id": "rationale_autoclear",
       "community": 2,
-      "norm_label": "auto-clear after merge rationale"
+      "norm_label": "auto-clear after merge rationale",
+      "id": "rationale_autoclear"
     },
     {
       "label": "add_files Bug Fix Rationale",
@@ -1188,9 +1188,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Original code used side-effect trick (not list.append(f)) that made the added count always 0 and left dead duplicate-checking code. Fixed with a single clean loop tracking actual count.",
-      "id": "rationale_bugfix_addfiles",
       "community": 2,
-      "norm_label": "add_files bug fix rationale"
+      "norm_label": "add_files bug fix rationale",
+      "id": "rationale_bugfix_addfiles"
     },
     {
       "label": "Single-file Architecture Rationale",
@@ -1202,9 +1202,9 @@
       "author": null,
       "contributor": null,
       "rationale": "All classes kept in a single cbz_merger.py for simplicity of distribution \u2014 can be run from source or compiled to a standalone .exe with PyInstaller --onefile.",
-      "id": "rationale_singlefile_arch",
       "community": 2,
-      "norm_label": "single-file architecture rationale"
+      "norm_label": "single-file architecture rationale",
+      "id": "rationale_singlefile_arch"
     },
     {
       "label": "Light/Dark Theme Feature",
@@ -1216,9 +1216,9 @@
       "author": null,
       "contributor": null,
       "rationale": "QSS stylesheets toggled at runtime and persisted via QSettings. Light is default. Toggle button (moon/sun) in header.",
-      "id": "feature_lightdark_theme",
       "community": 2,
-      "norm_label": "light/dark theme feature"
+      "norm_label": "light/dark theme feature",
+      "id": "feature_lightdark_theme"
     },
     {
       "label": "CBZ Merger v1.0 (tkinter)",
@@ -1229,9 +1229,9 @@
       "captured_at": null,
       "author": "Yor Anupong",
       "contributor": null,
-      "id": "v1_tkinter",
       "community": 2,
-      "norm_label": "cbz merger v1.0 (tkinter)"
+      "norm_label": "cbz merger v1.0 (tkinter)",
+      "id": "v1_tkinter"
     },
     {
       "label": "CBZ Merger v2.0 (PyQt6)",
@@ -1242,9 +1242,434 @@
       "captured_at": null,
       "author": "Yor Anupong",
       "contributor": null,
-      "id": "v2_pyqt6",
       "community": 2,
-      "norm_label": "cbz merger v2.0 (pyqt6)"
+      "norm_label": "cbz merger v2.0 (pyqt6)",
+      "id": "v2_pyqt6"
+    },
+    {
+      "label": "._suffix_after_last_number()",
+      "file_type": "code",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L359",
+      "community": 3,
+      "norm_label": "._suffix_after_last_number()",
+      "id": "merger_cbz_merger_smartnamer_suffix_after_last_number"
+    },
+    {
+      "label": "Core logic for merging comic book archives.",
+      "file_type": "rationale",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L124",
+      "community": 0,
+      "norm_label": "core logic for merging comic book archives.",
+      "id": "merger_cbz_merger_rationale_124"
+    },
+    {
+      "label": "Returns naturally-sorted list of archive files directly inside folderpath.",
+      "file_type": "rationale",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L158",
+      "community": 0,
+      "norm_label": "returns naturally-sorted list of archive files directly inside folderpath.",
+      "id": "merger_cbz_merger_rationale_158"
+    },
+    {
+      "label": "Suggests a merged output filename from a list of input file stems.",
+      "file_type": "rationale",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L302",
+      "community": 3,
+      "norm_label": "suggests a merged output filename from a list of input file stems.",
+      "id": "merger_cbz_merger_rationale_302"
+    },
+    {
+      "label": "Runs CBZMerger.merge_archives in a background QThread.",
+      "file_type": "rationale",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L382",
+      "community": 5,
+      "norm_label": "runs cbzmerger.merge_archives in a background qthread.",
+      "id": "merger_cbz_merger_rationale_382"
+    },
+    {
+      "label": "File list panel with native drag-and-drop.",
+      "file_type": "rationale",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L404",
+      "community": 5,
+      "norm_label": "file list panel with native drag-and-drop.",
+      "id": "merger_cbz_merger_rationale_404"
+    },
+    {
+      "label": "Main application window.",
+      "file_type": "rationale",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L511",
+      "community": 1,
+      "norm_label": "main application window.",
+      "id": "merger_cbz_merger_rationale_511"
+    },
+    {
+      "label": "cbz_merger.py",
+      "file_type": "code",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "cbz_merger.py",
+      "id": "merger_cbz_merger_py"
+    },
+    {
+      "label": "test_core.py",
+      "file_type": "code",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "test_core.py",
+      "id": "merger_tests_test_core_py"
+    },
+    {
+      "label": "test_smart_namer.py",
+      "file_type": "code",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "test_smart_namer.py",
+      "id": "merger_tests_test_smart_namer_py"
+    },
+    {
+      "label": "test_parenthesized_number_range()",
+      "file_type": "code",
+      "source_file": "tests/test_smart_namer.py",
+      "source_location": "L50",
+      "community": 3,
+      "norm_label": "test_parenthesized_number_range()",
+      "id": "tests_test_smart_namer_test_parenthesized_number_range"
+    },
+    {
+      "label": "test_square_bracket_number_range()",
+      "file_type": "code",
+      "source_file": "tests/test_smart_namer.py",
+      "source_location": "L61",
+      "community": 3,
+      "norm_label": "test_square_bracket_number_range()",
+      "id": "tests_test_smart_namer_test_square_bracket_number_range"
+    },
+    {
+      "label": "test_parenthesized_number_two_files()",
+      "file_type": "code",
+      "source_file": "tests/test_smart_namer.py",
+      "source_location": "L66",
+      "community": 3,
+      "norm_label": "test_parenthesized_number_two_files()",
+      "id": "tests_test_smart_namer_test_parenthesized_number_two_files"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "Merger/tests/__init__.py",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "__init__.py",
+      "id": "merger_tests_init_py"
+    },
+    {
+      "label": "CBZMerger",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 123",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "cbzmerger",
+      "id": "CBZMerger"
+    },
+    {
+      "label": "SmartNamer",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 301",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "smartnamer",
+      "id": "SmartNamer"
+    },
+    {
+      "label": "MergeWorker (QThread)",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 381",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "mergeworker (qthread)",
+      "id": "MergeWorker"
+    },
+    {
+      "label": "FileListWidget (QWidget)",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 403",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "filelistwidget (qwidget)",
+      "id": "FileListWidget"
+    },
+    {
+      "label": "MainWindow (QMainWindow)",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 510",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "mainwindow (qmainwindow)",
+      "id": "MainWindow"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 869",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "main()",
+      "id": "main_func"
+    },
+    {
+      "label": "LIGHT_QSS stylesheet",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 42",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "light_qss stylesheet",
+      "id": "LIGHT_QSS"
+    },
+    {
+      "label": "DARK_QSS stylesheet",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 82",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "dark_qss stylesheet",
+      "id": "DARK_QSS"
+    },
+    {
+      "label": "test_smart_namer.py",
+      "file_type": "code",
+      "source_file": "tests/test_smart_namer.py",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "test_smart_namer.py",
+      "id": "test_smart_namer"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "Yor Anupong",
+      "contributor": null,
+      "community": 4,
+      "norm_label": "readme.md",
+      "id": "README"
+    },
+    {
+      "label": "CHANGELOG.md",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "changelog.md",
+      "id": "CHANGELOG"
+    },
+    {
+      "label": "CBZMerger.merge_archives()",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 212",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "cbzmerger.merge_archives()",
+      "id": "merge_archives_method"
+    },
+    {
+      "label": "CBZMerger.extract_archive()",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 169",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "cbzmerger.extract_archive()",
+      "id": "extract_archive_method"
+    },
+    {
+      "label": "CBZMerger.natural_sort_key()",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 190",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "cbzmerger.natural_sort_key()",
+      "id": "natural_sort_key_method"
+    },
+    {
+      "label": "CBZMerger.collect_images_by_subfolder()",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 195",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "cbzmerger.collect_images_by_subfolder()",
+      "id": "collect_images_method"
+    },
+    {
+      "label": "CBZMerger.find_archives_in_folder()",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 157",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "cbzmerger.find_archives_in_folder()",
+      "id": "find_archives_method"
+    },
+    {
+      "label": "SmartNamer.suggest()",
+      "file_type": "code",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 306",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "smartnamer.suggest()",
+      "id": "suggest_method"
+    },
+    {
+      "label": "Smart Auto-naming concept",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "smart auto-naming concept",
+      "id": "smart_naming_concept"
+    },
+    {
+      "label": "Background Thread processing",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "background thread processing",
+      "id": "background_thread_concept"
+    },
+    {
+      "label": "Drag and Drop support",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "drag and drop support",
+      "id": "drag_drop_concept"
+    },
+    {
+      "label": "PyQt6 migration from tkinter",
+      "file_type": "rationale",
+      "source_file": "CHANGELOG.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "pyqt6 migration from tkinter",
+      "id": "pyqt6_migration"
+    },
+    {
+      "label": "RAR/CBR optional support",
+      "file_type": "rationale",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 29",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "rar/cbr optional support",
+      "id": "rar_support"
+    },
+    {
+      "label": "PDF export optional support",
+      "file_type": "rationale",
+      "source_file": "cbz_merger.py",
+      "source_location": "line 34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 4,
+      "norm_label": "pdf export optional support",
+      "id": "pdf_support"
     }
   ],
   "links": [
@@ -1252,204 +1677,214 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "cbz_merger.py",
-      "source_location": "L119",
+      "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cbz_merger_py",
-      "target": "merger_cbz_merger_cbzmerger",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_cbzmerger"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "cbz_merger.py",
-      "source_location": "L297",
+      "source_location": "L301",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cbz_merger_py",
-      "target": "merger_cbz_merger_smartnamer",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_smartnamer"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "cbz_merger.py",
-      "source_location": "L350",
+      "source_location": "L381",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cbz_merger_py",
-      "target": "merger_cbz_merger_mergeworker",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mergeworker"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "cbz_merger.py",
-      "source_location": "L372",
+      "source_location": "L403",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cbz_merger_py",
-      "target": "merger_cbz_merger_filelistwidget",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "cbz_merger.py",
-      "source_location": "L479",
+      "source_location": "L510",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cbz_merger_py",
-      "target": "merger_cbz_merger_mainwindow",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "cbz_merger.py",
-      "source_location": "L838",
+      "source_location": "L869",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cbz_merger_py",
-      "target": "merger_cbz_merger_main",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_main"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "CHANGELOG.md",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "cbz_merger_py",
+      "target": "pyqt6_migration"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L125",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_cbzmerger",
-      "target": "merger_cbz_merger_cbzmerger_init",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
+      "source_file": "Merger/cbz_merger.py",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger",
-      "target": "merger_cbz_merger_cbzmerger_log",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_cbzmerger_init"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L134",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger",
-      "target": "merger_cbz_merger_cbzmerger_update_progress",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_cbzmerger_log"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
+      "source_file": "Merger/cbz_merger.py",
       "source_location": "L138",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger",
-      "target": "merger_cbz_merger_cbzmerger_is_supported_file",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_cbzmerger_update_progress"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L141",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger",
-      "target": "merger_cbz_merger_cbzmerger_is_image_file",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_cbzmerger_is_supported_file"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L144",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L145",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger",
-      "target": "merger_cbz_merger_cbzmerger_is_image_folder",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_cbzmerger_is_image_file"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L153",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L148",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger",
-      "target": "merger_cbz_merger_cbzmerger_find_archives_in_folder",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_cbzmerger_is_image_folder"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L165",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger",
-      "target": "merger_cbz_merger_cbzmerger_extract_archive",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_cbzmerger_find_archives_in_folder"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L186",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L169",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger",
-      "target": "merger_cbz_merger_cbzmerger_natural_sort_key",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_cbzmerger_extract_archive"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L191",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L190",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger",
-      "target": "merger_cbz_merger_cbzmerger_collect_images_by_subfolder",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_cbzmerger_natural_sort_key"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L208",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L195",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger",
-      "target": "merger_cbz_merger_cbzmerger_merge_archives",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_cbzmerger_collect_images_by_subfolder"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L212",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "merger_cbz_merger_cbzmerger_merge_archives"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L364",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L395",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mergeworker_run",
-      "target": "merger_cbz_merger_cbzmerger",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "merger_cbz_merger_mergeworker_run"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L406",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L437",
       "weight": 1.0,
-      "source": "merger_cbz_merger_filelistwidget_add_items",
-      "target": "merger_cbz_merger_cbzmerger",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "merger_cbz_merger_filelistwidget_add_items"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L751",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L782",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_add_folder",
-      "target": "merger_cbz_merger_cbzmerger",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "merger_cbz_merger_mainwindow_add_folder"
     },
     {
       "relation": "rationale_for",
@@ -1457,9 +1892,9 @@
       "source_file": "cbz_merger.py",
       "source_location": "L120",
       "weight": 1.0,
-      "source": "merger_cbz_merger_rationale_120",
-      "target": "merger_cbz_merger_cbzmerger",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "merger_cbz_merger_rationale_120"
     },
     {
       "relation": "calls",
@@ -1469,8 +1904,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L9",
       "weight": 1.0,
-      "source": "tests_test_core_test_natural_sort_orders_numerically",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_natural_sort_orders_numerically"
     },
     {
       "relation": "calls",
@@ -1480,8 +1915,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L16",
       "weight": 1.0,
-      "source": "tests_test_core_test_natural_sort_handles_no_digits",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_natural_sort_handles_no_digits"
     },
     {
       "relation": "calls",
@@ -1491,8 +1926,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L23",
       "weight": 1.0,
-      "source": "tests_test_core_test_is_image_file_accepts_common_formats",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_is_image_file_accepts_common_formats"
     },
     {
       "relation": "calls",
@@ -1502,8 +1937,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L33",
       "weight": 1.0,
-      "source": "tests_test_core_test_is_supported_file_accepts_archives",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_is_supported_file_accepts_archives"
     },
     {
       "relation": "calls",
@@ -1513,8 +1948,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L49",
       "weight": 1.0,
-      "source": "tests_test_core_test_extract_cbz_returns_true_and_extracts",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_extract_cbz_returns_true_and_extracts"
     },
     {
       "relation": "calls",
@@ -1524,8 +1959,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L56",
       "weight": 1.0,
-      "source": "tests_test_core_test_extract_missing_file_returns_false",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_extract_missing_file_returns_false"
     },
     {
       "relation": "calls",
@@ -1535,8 +1970,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L63",
       "weight": 1.0,
-      "source": "tests_test_core_test_collect_images_sorted_naturally",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_collect_images_sorted_naturally"
     },
     {
       "relation": "calls",
@@ -1546,8 +1981,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L75",
       "weight": 1.0,
-      "source": "tests_test_core_test_merge_produces_valid_cbz",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_merge_produces_valid_cbz"
     },
     {
       "relation": "calls",
@@ -1557,8 +1992,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L83",
       "weight": 1.0,
-      "source": "tests_test_core_test_merge_empty_input_returns_false",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_merge_empty_input_returns_false"
     },
     {
       "relation": "calls",
@@ -1568,8 +2003,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L90",
       "weight": 1.0,
-      "source": "tests_test_core_test_extract_unsupported_extension_returns_false",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_extract_unsupported_extension_returns_false"
     },
     {
       "relation": "calls",
@@ -1579,8 +2014,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L97",
       "weight": 1.0,
-      "source": "tests_test_core_test_find_archives_in_folder_returns_sorted_archives",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_find_archives_in_folder_returns_sorted_archives"
     },
     {
       "relation": "calls",
@@ -1590,8 +2025,8 @@
       "source_file": "tests/test_core.py",
       "source_location": "L105",
       "weight": 1.0,
-      "source": "tests_test_core_test_find_archives_in_folder_empty_when_no_archives",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_find_archives_in_folder_empty_when_no_archives"
     },
     {
       "relation": "calls",
@@ -1601,96 +2036,116 @@
       "source_file": "tests/test_core.py",
       "source_location": "L113",
       "weight": 1.0,
-      "source": "tests_test_core_test_find_archives_in_folder_non_recursive",
-      "target": "merger_cbz_merger_cbzmerger"
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "tests_test_core_test_find_archives_in_folder_non_recursive"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "merger_cbz_merger_rationale_124"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger",
+      "target": "merger_cbz_merger_py"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L175",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L179",
       "weight": 1.0,
-      "source": "merger_cbz_merger_cbzmerger_extract_archive",
-      "target": "merger_cbz_merger_cbzmerger_log",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger_log",
+      "target": "merger_cbz_merger_cbzmerger_extract_archive"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L210",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L214",
       "weight": 1.0,
-      "source": "merger_cbz_merger_cbzmerger_merge_archives",
-      "target": "merger_cbz_merger_cbzmerger_log",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger_log",
+      "target": "merger_cbz_merger_cbzmerger_merge_archives"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L227",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L231",
       "weight": 1.0,
-      "source": "merger_cbz_merger_cbzmerger_merge_archives",
-      "target": "merger_cbz_merger_cbzmerger_update_progress",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger_update_progress",
+      "target": "merger_cbz_merger_cbzmerger_merge_archives"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L149",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L153",
       "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger_is_image_file",
+      "target": "merger_cbz_merger_cbzmerger_is_image_folder"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L201",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger_is_image_file",
+      "target": "merger_cbz_merger_cbzmerger_collect_images_by_subfolder"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L442",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger_is_image_folder",
-      "target": "merger_cbz_merger_cbzmerger_is_image_file",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_add_items"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L197",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L787",
       "weight": 1.0,
-      "source": "merger_cbz_merger_cbzmerger_collect_images_by_subfolder",
-      "target": "merger_cbz_merger_cbzmerger_is_image_file",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger_is_image_folder",
+      "target": "merger_cbz_merger_mainwindow_add_folder"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L411",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L783",
       "weight": 1.0,
-      "source": "merger_cbz_merger_filelistwidget_add_items",
-      "target": "merger_cbz_merger_cbzmerger_is_image_folder",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L756",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_add_folder",
-      "target": "merger_cbz_merger_cbzmerger_is_image_folder",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L752",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_add_folder",
-      "target": "merger_cbz_merger_cbzmerger_find_archives_in_folder",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger_find_archives_in_folder",
+      "target": "merger_cbz_merger_mainwindow_add_folder"
     },
     {
       "relation": "rationale_for",
@@ -1698,104 +2153,114 @@
       "source_file": "cbz_merger.py",
       "source_location": "L154",
       "weight": 1.0,
-      "source": "merger_cbz_merger_rationale_154",
-      "target": "merger_cbz_merger_cbzmerger_find_archives_in_folder",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger_find_archives_in_folder",
+      "target": "merger_cbz_merger_rationale_154"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger_find_archives_in_folder",
+      "target": "merger_cbz_merger_rationale_158"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L244",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L248",
       "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger_extract_archive",
+      "target": "merger_cbz_merger_cbzmerger_merge_archives"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L240",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_cbzmerger_collect_images_by_subfolder",
+      "target": "merger_cbz_merger_cbzmerger_merge_archives"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L399",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_cbzmerger_merge_archives",
-      "target": "merger_cbz_merger_cbzmerger_extract_archive",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mergeworker_run"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L306",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "merger_cbz_merger_smartnamer_suggest"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L342",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "merger_cbz_merger_smartnamer_last_number"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L349",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "merger_cbz_merger_smartnamer_prefix_before_last_number"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L369",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "merger_cbz_merger_smartnamer_common_prefix"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L236",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L756",
       "weight": 1.0,
-      "source": "merger_cbz_merger_cbzmerger_merge_archives",
-      "target": "merger_cbz_merger_cbzmerger_collect_images_by_subfolder",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "merger_cbz_merger_mainwindow_update_smart_bar"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L368",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L821",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mergeworker_run",
-      "target": "merger_cbz_merger_cbzmerger_merge_archives",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L300",
-      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_smartnamer",
-      "target": "merger_cbz_merger_smartnamer_suggest",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L321",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_smartnamer",
-      "target": "merger_cbz_merger_smartnamer_last_number",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L328",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_smartnamer",
-      "target": "merger_cbz_merger_smartnamer_prefix_before_last_number",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L338",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_smartnamer",
-      "target": "merger_cbz_merger_smartnamer_common_prefix",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L725",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_update_smart_bar",
-      "target": "merger_cbz_merger_smartnamer",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L790",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_start_merge",
-      "target": "merger_cbz_merger_smartnamer",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_start_merge"
     },
     {
       "relation": "rationale_for",
@@ -1803,9 +2268,9 @@
       "source_file": "cbz_merger.py",
       "source_location": "L298",
       "weight": 1.0,
-      "source": "merger_cbz_merger_rationale_298",
-      "target": "merger_cbz_merger_smartnamer",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "merger_cbz_merger_rationale_298"
     },
     {
       "relation": "calls",
@@ -1815,8 +2280,8 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L6",
       "weight": 1.0,
-      "source": "tests_test_smart_namer_test_range_from_typical_chapter_names",
-      "target": "merger_cbz_merger_smartnamer"
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "tests_test_smart_namer_test_range_from_typical_chapter_names"
     },
     {
       "relation": "calls",
@@ -1826,8 +2291,8 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L11",
       "weight": 1.0,
-      "source": "tests_test_smart_namer_test_single_file_uses_original_name",
-      "target": "merger_cbz_merger_smartnamer"
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "tests_test_smart_namer_test_single_file_uses_original_name"
     },
     {
       "relation": "calls",
@@ -1837,8 +2302,8 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L16",
       "weight": 1.0,
-      "source": "tests_test_smart_namer_test_no_numbers_falls_back_to_merged_suffix",
-      "target": "merger_cbz_merger_smartnamer"
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "tests_test_smart_namer_test_no_numbers_falls_back_to_merged_suffix"
     },
     {
       "relation": "calls",
@@ -1848,8 +2313,8 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L21",
       "weight": 1.0,
-      "source": "tests_test_smart_namer_test_non_sequential_numbers_use_min_max",
-      "target": "merger_cbz_merger_smartnamer"
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "tests_test_smart_namer_test_non_sequential_numbers_use_min_max"
     },
     {
       "relation": "calls",
@@ -1859,8 +2324,8 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L26",
       "weight": 1.0,
-      "source": "tests_test_smart_namer_test_empty_common_prefix_uses_numbers_only",
-      "target": "merger_cbz_merger_smartnamer"
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "tests_test_smart_namer_test_empty_common_prefix_uses_numbers_only"
     },
     {
       "relation": "calls",
@@ -1870,8 +2335,8 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L31",
       "weight": 1.0,
-      "source": "tests_test_smart_namer_test_empty_list_returns_merged",
-      "target": "merger_cbz_merger_smartnamer"
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "tests_test_smart_namer_test_empty_list_returns_merged"
     },
     {
       "relation": "calls",
@@ -1881,8 +2346,8 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L36",
       "weight": 1.0,
-      "source": "tests_test_smart_namer_test_all_same_number_no_range",
-      "target": "merger_cbz_merger_smartnamer"
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "tests_test_smart_namer_test_all_same_number_no_range"
     },
     {
       "relation": "calls",
@@ -1892,8 +2357,8 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L41",
       "weight": 1.0,
-      "source": "tests_test_smart_namer_test_pdf_extension_preserved",
-      "target": "merger_cbz_merger_smartnamer"
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "tests_test_smart_namer_test_pdf_extension_preserved"
     },
     {
       "relation": "calls",
@@ -1903,104 +2368,145 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L46",
       "weight": 1.0,
-      "source": "tests_test_smart_namer_test_two_files_simple_range",
-      "target": "merger_cbz_merger_smartnamer"
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "tests_test_smart_namer_test_two_files_simple_range"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L359",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "merger_cbz_merger_smartnamer_suffix_after_last_number"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L302",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "merger_cbz_merger_rationale_302"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L301",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer",
+      "target": "merger_cbz_merger_py"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L306",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L312",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_smartnamer_suggest",
-      "target": "merger_cbz_merger_smartnamer_last_number",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_smartnamer_last_number"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L310",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L316",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_smartnamer_suggest",
-      "target": "merger_cbz_merger_smartnamer_prefix_before_last_number",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_smartnamer_prefix_before_last_number"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L311",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L318",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_smartnamer_suggest",
-      "target": "merger_cbz_merger_smartnamer_common_prefix",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_smartnamer_common_prefix"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L725",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L756",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_update_smart_bar",
-      "target": "merger_cbz_merger_smartnamer_suggest",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer_suggest",
+      "target": "merger_cbz_merger_mainwindow_update_smart_bar"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L790",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L821",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_start_merge",
-      "target": "merger_cbz_merger_smartnamer_suggest",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer_suggest",
+      "target": "merger_cbz_merger_mainwindow_start_merge"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L317",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_smartnamer_suggest",
+      "target": "merger_cbz_merger_smartnamer_suffix_after_last_number"
     },
     {
       "relation": "inherits",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L350",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L381",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mergeworker",
-      "target": "qthread",
-      "confidence_score": 1.0
+      "target": "qthread"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L357",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L388",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mergeworker",
-      "target": "merger_cbz_merger_mergeworker_init",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mergeworker_init"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L363",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L394",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mergeworker",
-      "target": "merger_cbz_merger_mergeworker_run",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mergeworker_run"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L805",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L836",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_start_merge",
-      "target": "merger_cbz_merger_mergeworker",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mergeworker",
+      "target": "merger_cbz_merger_mainwindow_start_merge"
     },
     {
       "relation": "rationale_for",
@@ -2008,151 +2514,171 @@
       "source_file": "cbz_merger.py",
       "source_location": "L351",
       "weight": 1.0,
-      "source": "merger_cbz_merger_rationale_351",
-      "target": "merger_cbz_merger_mergeworker",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mergeworker",
+      "target": "merger_cbz_merger_rationale_351"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L382",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mergeworker",
+      "target": "merger_cbz_merger_rationale_382"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L381",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mergeworker",
+      "target": "merger_cbz_merger_py"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L358",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L389",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mergeworker_init",
-      "target": "merger_cbz_merger_mainwindow_init",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_init"
     },
     {
       "relation": "inherits",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L372",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L403",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget",
-      "target": "qwidget",
-      "confidence_score": 1.0
+      "target": "qwidget"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L377",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L408",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget",
-      "target": "merger_cbz_merger_filelistwidget_init",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_init"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L391",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L422",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget",
-      "target": "merger_cbz_merger_filelistwidget_dragenterevent",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_dragenterevent"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L396",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L427",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget",
-      "target": "merger_cbz_merger_filelistwidget_dragleaveevent",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_dragleaveevent"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L399",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L430",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget",
-      "target": "merger_cbz_merger_filelistwidget_dropevent",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_dropevent"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L405",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_filelistwidget",
-      "target": "merger_cbz_merger_filelistwidget_add_items",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L423",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_filelistwidget",
-      "target": "merger_cbz_merger_filelistwidget_remove_selected",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L431",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_filelistwidget",
-      "target": "merger_cbz_merger_filelistwidget_clear",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
+      "source_file": "Merger/cbz_merger.py",
       "source_location": "L436",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget",
-      "target": "merger_cbz_merger_filelistwidget_move_up",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_add_items"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L444",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L454",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget",
-      "target": "merger_cbz_merger_filelistwidget_move_down",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_remove_selected"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L452",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L462",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget",
-      "target": "merger_cbz_merger_filelistwidget_get_files",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_clear"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L455",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L467",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget",
-      "target": "merger_cbz_merger_filelistwidget_refresh_list",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_move_up"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L475",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget",
+      "target": "merger_cbz_merger_filelistwidget_move_down"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L483",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget",
+      "target": "merger_cbz_merger_filelistwidget_get_files"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L486",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget",
+      "target": "merger_cbz_merger_filelistwidget_refresh_list"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L504",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L535",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_build_ui",
-      "target": "merger_cbz_merger_filelistwidget",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget",
+      "target": "merger_cbz_merger_mainwindow_build_ui"
     },
     {
       "relation": "rationale_for",
@@ -2160,502 +2686,522 @@
       "source_file": "cbz_merger.py",
       "source_location": "L373",
       "weight": 1.0,
-      "source": "merger_cbz_merger_rationale_373",
-      "target": "merger_cbz_merger_filelistwidget",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget",
+      "target": "merger_cbz_merger_rationale_373"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L404",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget",
+      "target": "merger_cbz_merger_rationale_404"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L403",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget",
+      "target": "merger_cbz_merger_py"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L496",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L527",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_build_ui",
-      "target": "qwidget",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "qwidget",
+      "target": "merger_cbz_merger_mainwindow_build_ui"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L530",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L561",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_make_header",
-      "target": "qwidget",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "qwidget",
+      "target": "merger_cbz_merger_mainwindow_make_header"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L565",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L596",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_make_toolbar",
-      "target": "qwidget",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "qwidget",
+      "target": "merger_cbz_merger_mainwindow_make_toolbar"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L588",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L619",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_make_options_bar",
-      "target": "qwidget",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "qwidget",
+      "target": "merger_cbz_merger_mainwindow_make_options_bar"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L618",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L649",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_make_smart_bar",
-      "target": "qwidget",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "qwidget",
+      "target": "merger_cbz_merger_mainwindow_make_smart_bar"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L639",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L670",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_make_progress_area",
-      "target": "qwidget",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "qwidget",
+      "target": "merger_cbz_merger_mainwindow_make_progress_area"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L662",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L693",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_make_log_panel",
-      "target": "qwidget",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "qwidget",
+      "target": "merger_cbz_merger_mainwindow_make_log_panel"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L686",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L717",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_make_footer",
-      "target": "qwidget",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "qwidget",
+      "target": "merger_cbz_merger_mainwindow_make_footer"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L378",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L409",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget_init",
-      "target": "merger_cbz_merger_mainwindow_init",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_init"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L389",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L420",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget_init",
-      "target": "merger_cbz_merger_filelistwidget_refresh_list",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_refresh_list"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L402",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L433",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget_dropevent",
-      "target": "merger_cbz_merger_filelistwidget_add_items",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_add_items"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L419",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L450",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget_add_items",
-      "target": "merger_cbz_merger_filelistwidget_refresh_list",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_refresh_list"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L744",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L775",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_add_files",
-      "target": "merger_cbz_merger_filelistwidget_add_items",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget_add_items",
+      "target": "merger_cbz_merger_mainwindow_add_files"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L754",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L785",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_add_folder",
-      "target": "merger_cbz_merger_filelistwidget_add_items",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget_add_items",
+      "target": "merger_cbz_merger_mainwindow_add_folder"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L428",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L459",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget_remove_selected",
-      "target": "merger_cbz_merger_filelistwidget_refresh_list",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_refresh_list"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L456",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L487",
       "weight": 1.0,
-      "source": "merger_cbz_merger_filelistwidget_refresh_list",
-      "target": "merger_cbz_merger_filelistwidget_clear",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget_clear",
+      "target": "merger_cbz_merger_filelistwidget_refresh_list"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L770",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L801",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_clear_log",
-      "target": "merger_cbz_merger_filelistwidget_clear",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget_clear",
+      "target": "merger_cbz_merger_mainwindow_clear_log"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L820",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L851",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_auto_clear",
-      "target": "merger_cbz_merger_filelistwidget_clear",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget_clear",
+      "target": "merger_cbz_merger_mainwindow_auto_clear"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L440",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L471",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget_move_up",
-      "target": "merger_cbz_merger_filelistwidget_refresh_list",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_refresh_list"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L448",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L479",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_filelistwidget_move_down",
-      "target": "merger_cbz_merger_filelistwidget_refresh_list",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_filelistwidget_refresh_list"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L719",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L750",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_update_smart_bar",
-      "target": "merger_cbz_merger_filelistwidget_get_files",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget_get_files",
+      "target": "merger_cbz_merger_mainwindow_update_smart_bar"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L779",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L810",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_start_merge",
-      "target": "merger_cbz_merger_filelistwidget_get_files",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_filelistwidget_get_files",
+      "target": "merger_cbz_merger_mainwindow_start_merge"
     },
     {
       "relation": "inherits",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L479",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L510",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "qmainwindow",
-      "confidence_score": 1.0
+      "target": "qmainwindow"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L482",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L513",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_init",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_init"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L495",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L526",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_build_ui",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_build_ui"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L529",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L560",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_make_header",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_header"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L564",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L595",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_make_toolbar",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_toolbar"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L587",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L618",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_make_options_bar",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_options_bar"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L617",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L648",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_make_smart_bar",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_smart_bar"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L638",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L669",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_make_progress_area",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_progress_area"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L661",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L692",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_make_log_panel",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_log_panel"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L685",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L716",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_make_footer",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_footer"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L705",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L736",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_on_files_changed",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_on_files_changed"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L718",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L749",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_update_smart_bar",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_update_smart_bar"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L727",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L758",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_on_pdf_toggled",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_on_pdf_toggled"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L738",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_add_files",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L747",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_add_folder",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L766",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_append_log",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
+      "source_file": "Merger/cbz_merger.py",
       "source_location": "L769",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_clear_log",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_add_files"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L772",
-      "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_on_progress",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
+      "source_file": "Merger/cbz_merger.py",
       "source_location": "L778",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_start_merge",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_add_folder"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L811",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L797",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_on_merge_finished",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_append_log"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L819",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L800",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_auto_clear",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_clear_log"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L824",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L803",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_toggle_theme",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_on_progress"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L829",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L809",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_apply_theme",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_start_merge"
     },
     {
       "relation": "method",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L833",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L842",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow",
-      "target": "merger_cbz_merger_mainwindow_load_settings",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_on_merge_finished"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L850",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow",
+      "target": "merger_cbz_merger_mainwindow_auto_clear"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L855",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow",
+      "target": "merger_cbz_merger_mainwindow_toggle_theme"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L860",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow",
+      "target": "merger_cbz_merger_mainwindow_apply_theme"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L864",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow",
+      "target": "merger_cbz_merger_mainwindow_load_settings"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L841",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L872",
       "weight": 1.0,
-      "source": "merger_cbz_merger_main",
-      "target": "merger_cbz_merger_mainwindow",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow",
+      "target": "merger_cbz_merger_main"
     },
     {
       "relation": "rationale_for",
@@ -2663,240 +3209,270 @@
       "source_file": "cbz_merger.py",
       "source_location": "L480",
       "weight": 1.0,
-      "source": "merger_cbz_merger_rationale_480",
-      "target": "merger_cbz_merger_mainwindow",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow",
+      "target": "merger_cbz_merger_rationale_480"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L511",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow",
+      "target": "merger_cbz_merger_rationale_511"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L510",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow",
+      "target": "merger_cbz_merger_py"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L492",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L523",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_init",
-      "target": "merger_cbz_merger_mainwindow_build_ui",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_build_ui"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L493",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L524",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_init",
-      "target": "merger_cbz_merger_mainwindow_load_settings",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_load_settings"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L507",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L538",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_build_ui",
-      "target": "merger_cbz_merger_mainwindow_make_header",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_header"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L508",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L539",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_build_ui",
-      "target": "merger_cbz_merger_mainwindow_make_toolbar",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_toolbar"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L509",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L540",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_build_ui",
-      "target": "merger_cbz_merger_mainwindow_make_options_bar",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_options_bar"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L518",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L549",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_build_ui",
-      "target": "merger_cbz_merger_mainwindow_make_smart_bar",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_smart_bar"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L521",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L552",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_build_ui",
-      "target": "merger_cbz_merger_mainwindow_make_progress_area",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_progress_area"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L522",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L553",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_build_ui",
-      "target": "merger_cbz_merger_mainwindow_make_log_panel",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_log_panel"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L525",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L556",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_build_ui",
-      "target": "merger_cbz_merger_mainwindow_make_footer",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_make_footer"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L527",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L558",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_build_ui",
-      "target": "merger_cbz_merger_mainwindow_on_files_changed",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_on_files_changed"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L716",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L747",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_on_files_changed",
-      "target": "merger_cbz_merger_mainwindow_update_smart_bar",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_update_smart_bar"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L736",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L767",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_on_pdf_toggled",
-      "target": "merger_cbz_merger_mainwindow_update_smart_bar",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow_update_smart_bar",
+      "target": "merger_cbz_merger_mainwindow_on_pdf_toggled"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L745",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L776",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_add_files",
-      "target": "merger_cbz_merger_mainwindow_append_log",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_append_log"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L755",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L786",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_add_folder",
-      "target": "merger_cbz_merger_mainwindow_append_log",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_append_log"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L802",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L833",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_start_merge",
-      "target": "merger_cbz_merger_mainwindow_clear_log",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow_clear_log",
+      "target": "merger_cbz_merger_mainwindow_start_merge"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L821",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L852",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_auto_clear",
-      "target": "merger_cbz_merger_mainwindow_clear_log",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow_clear_log",
+      "target": "merger_cbz_merger_mainwindow_auto_clear"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L803",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L834",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_start_merge",
-      "target": "merger_cbz_merger_mainwindow_on_progress",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow_on_progress",
+      "target": "merger_cbz_merger_mainwindow_start_merge"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L822",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L853",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_auto_clear",
-      "target": "merger_cbz_merger_mainwindow_on_progress",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow_on_progress",
+      "target": "merger_cbz_merger_mainwindow_auto_clear"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L815",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L846",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_on_merge_finished",
-      "target": "merger_cbz_merger_mainwindow_auto_clear",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_auto_clear"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L826",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L857",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "merger_cbz_merger_mainwindow_toggle_theme",
-      "target": "merger_cbz_merger_mainwindow_apply_theme",
-      "confidence_score": 1.0
+      "target": "merger_cbz_merger_mainwindow_apply_theme"
     },
     {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "cbz_merger.py",
-      "source_location": "L835",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L866",
       "weight": 1.0,
-      "source": "merger_cbz_merger_mainwindow_load_settings",
-      "target": "merger_cbz_merger_mainwindow_apply_theme",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_mainwindow_apply_theme",
+      "target": "merger_cbz_merger_mainwindow_load_settings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/cbz_merger.py",
+      "source_location": "L869",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_cbz_merger_main",
+      "target": "merger_cbz_merger_py"
     },
     {
       "relation": "contains",
@@ -2904,9 +3480,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_natural_sort_orders_numerically",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_natural_sort_orders_numerically"
     },
     {
       "relation": "contains",
@@ -2914,9 +3490,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_natural_sort_handles_no_digits",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_natural_sort_handles_no_digits"
     },
     {
       "relation": "contains",
@@ -2924,9 +3500,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_is_image_file_accepts_common_formats",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_is_image_file_accepts_common_formats"
     },
     {
       "relation": "contains",
@@ -2934,9 +3510,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_is_supported_file_accepts_archives",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_is_supported_file_accepts_archives"
     },
     {
       "relation": "contains",
@@ -2944,9 +3520,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_extract_cbz_returns_true_and_extracts",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_extract_cbz_returns_true_and_extracts"
     },
     {
       "relation": "contains",
@@ -2954,9 +3530,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_extract_missing_file_returns_false",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_extract_missing_file_returns_false"
     },
     {
       "relation": "contains",
@@ -2964,9 +3540,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_collect_images_sorted_naturally",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_collect_images_sorted_naturally"
     },
     {
       "relation": "contains",
@@ -2974,9 +3550,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_merge_produces_valid_cbz",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_merge_produces_valid_cbz"
     },
     {
       "relation": "contains",
@@ -2984,9 +3560,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_merge_empty_input_returns_false",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_merge_empty_input_returns_false"
     },
     {
       "relation": "contains",
@@ -2994,9 +3570,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_extract_unsupported_extension_returns_false",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_extract_unsupported_extension_returns_false"
     },
     {
       "relation": "contains",
@@ -3004,9 +3580,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_find_archives_in_folder_returns_sorted_archives",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_find_archives_in_folder_returns_sorted_archives"
     },
     {
       "relation": "contains",
@@ -3014,9 +3590,9 @@
       "source_file": "tests/test_core.py",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_find_archives_in_folder_empty_when_no_archives",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_find_archives_in_folder_empty_when_no_archives"
     },
     {
       "relation": "contains",
@@ -3024,9 +3600,139 @@
       "source_file": "tests/test_core.py",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_core_py",
-      "target": "tests_test_core_test_find_archives_in_folder_non_recursive",
-      "confidence_score": 1.0
+      "target": "tests_test_core_test_find_archives_in_folder_non_recursive"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_natural_sort_orders_numerically",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_natural_sort_handles_no_digits",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_is_image_file_accepts_common_formats",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_is_supported_file_accepts_archives",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_extract_cbz_returns_true_and_extracts",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_extract_missing_file_returns_false",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_collect_images_sorted_naturally",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_merge_produces_valid_cbz",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_merge_empty_input_returns_false",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_extract_unsupported_extension_returns_false",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_find_archives_in_folder_returns_sorted_archives",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_find_archives_in_folder_empty_when_no_archives",
+      "target": "merger_tests_test_core_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_core.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_core_test_find_archives_in_folder_non_recursive",
+      "target": "merger_tests_test_core_py"
     },
     {
       "relation": "contains",
@@ -3034,9 +3740,9 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_smart_namer_py",
-      "target": "tests_test_smart_namer_test_range_from_typical_chapter_names",
-      "confidence_score": 1.0
+      "target": "tests_test_smart_namer_test_range_from_typical_chapter_names"
     },
     {
       "relation": "contains",
@@ -3044,9 +3750,9 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_smart_namer_py",
-      "target": "tests_test_smart_namer_test_single_file_uses_original_name",
-      "confidence_score": 1.0
+      "target": "tests_test_smart_namer_test_single_file_uses_original_name"
     },
     {
       "relation": "contains",
@@ -3054,9 +3760,9 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_smart_namer_py",
-      "target": "tests_test_smart_namer_test_no_numbers_falls_back_to_merged_suffix",
-      "confidence_score": 1.0
+      "target": "tests_test_smart_namer_test_no_numbers_falls_back_to_merged_suffix"
     },
     {
       "relation": "contains",
@@ -3064,9 +3770,9 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_smart_namer_py",
-      "target": "tests_test_smart_namer_test_non_sequential_numbers_use_min_max",
-      "confidence_score": 1.0
+      "target": "tests_test_smart_namer_test_non_sequential_numbers_use_min_max"
     },
     {
       "relation": "contains",
@@ -3074,9 +3780,9 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_smart_namer_py",
-      "target": "tests_test_smart_namer_test_empty_common_prefix_uses_numbers_only",
-      "confidence_score": 1.0
+      "target": "tests_test_smart_namer_test_empty_common_prefix_uses_numbers_only"
     },
     {
       "relation": "contains",
@@ -3084,9 +3790,9 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_smart_namer_py",
-      "target": "tests_test_smart_namer_test_empty_list_returns_merged",
-      "confidence_score": 1.0
+      "target": "tests_test_smart_namer_test_empty_list_returns_merged"
     },
     {
       "relation": "contains",
@@ -3094,9 +3800,9 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_smart_namer_py",
-      "target": "tests_test_smart_namer_test_all_same_number_no_range",
-      "confidence_score": 1.0
+      "target": "tests_test_smart_namer_test_all_same_number_no_range"
     },
     {
       "relation": "contains",
@@ -3104,9 +3810,9 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_smart_namer_py",
-      "target": "tests_test_smart_namer_test_pdf_extension_preserved",
-      "confidence_score": 1.0
+      "target": "tests_test_smart_namer_test_pdf_extension_preserved"
     },
     {
       "relation": "contains",
@@ -3114,9 +3820,129 @@
       "source_file": "tests/test_smart_namer.py",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_smart_namer_py",
-      "target": "tests_test_smart_namer_test_two_files_simple_range",
-      "confidence_score": 1.0
+      "target": "tests_test_smart_namer_test_two_files_simple_range"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smart_namer.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_py",
+      "target": "tests_test_smart_namer_test_parenthesized_number_range"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smart_namer.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_py",
+      "target": "tests_test_smart_namer_test_square_bracket_number_range"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_smart_namer.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_py",
+      "target": "tests_test_smart_namer_test_parenthesized_number_two_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_test_range_from_typical_chapter_names",
+      "target": "merger_tests_test_smart_namer_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_test_single_file_uses_original_name",
+      "target": "merger_tests_test_smart_namer_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_test_no_numbers_falls_back_to_merged_suffix",
+      "target": "merger_tests_test_smart_namer_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_test_non_sequential_numbers_use_min_max",
+      "target": "merger_tests_test_smart_namer_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_test_empty_common_prefix_uses_numbers_only",
+      "target": "merger_tests_test_smart_namer_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_test_empty_list_returns_merged",
+      "target": "merger_tests_test_smart_namer_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_test_all_same_number_no_range",
+      "target": "merger_tests_test_smart_namer_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_test_pdf_extension_preserved",
+      "target": "merger_tests_test_smart_namer_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_smart_namer_test_two_files_simple_range",
+      "target": "merger_tests_test_smart_namer_py"
     },
     {
       "relation": "references",
@@ -3145,8 +3971,8 @@
       "source_file": "README.md",
       "source_location": "See CHANGELOG.md",
       "weight": 1.0,
-      "source": "readme_cbzmerger",
-      "target": "changelog_cbzmerger"
+      "source": "changelog_cbzmerger",
+      "target": "readme_cbzmerger"
     },
     {
       "relation": "references",
@@ -3295,8 +4121,8 @@
       "source_file": "docs/superpowers/plans/2026-05-26-cbz-merger-overhaul.md",
       "source_location": "Task 1",
       "weight": 1.0,
-      "source": "plan_overhaul",
-      "target": "requirements_deps"
+      "source": "requirements_deps",
+      "target": "plan_overhaul"
     },
     {
       "relation": "references",
@@ -3545,8 +4371,8 @@
       "source_file": "docs/superpowers/plans/2026-05-26-cbz-merger-overhaul.md",
       "source_location": "Task 4 \u2014 MergeWorker.run",
       "weight": 1.0,
-      "source": "class_mergeworker",
-      "target": "class_cbzmerger"
+      "source": "class_cbzmerger",
+      "target": "class_mergeworker"
     },
     {
       "relation": "calls",
@@ -3555,8 +4381,8 @@
       "source_file": "docs/superpowers/plans/2026-05-26-cbz-merger-overhaul.md",
       "source_location": "Task 4 \u2014 FileListWidget.add_items",
       "weight": 1.0,
-      "source": "class_filelistwidget",
-      "target": "class_cbzmerger"
+      "source": "class_cbzmerger",
+      "target": "class_filelistwidget"
     },
     {
       "relation": "references",
@@ -3565,8 +4391,8 @@
       "source_file": "docs/superpowers/plans/2026-05-26-cbz-merger-overhaul.md",
       "source_location": "Task 2 \u2014 test_core.py",
       "weight": 1.0,
-      "source": "test_core",
-      "target": "class_cbzmerger"
+      "source": "class_cbzmerger",
+      "target": "test_core"
     },
     {
       "relation": "references",
@@ -3605,8 +4431,8 @@
       "source_file": "CHANGELOG.md",
       "source_location": "[2.0.0]",
       "weight": 1.0,
-      "source": "v2_pyqt6",
-      "target": "class_cbzmerger"
+      "source": "class_cbzmerger",
+      "target": "v2_pyqt6"
     },
     {
       "relation": "calls",
@@ -3615,8 +4441,8 @@
       "source_file": "docs/superpowers/plans/2026-05-26-cbz-merger-overhaul.md",
       "source_location": "Task 4 \u2014 _update_smart_bar",
       "weight": 1.0,
-      "source": "class_mainwindow",
-      "target": "class_smartnamer"
+      "source": "class_smartnamer",
+      "target": "class_mainwindow"
     },
     {
       "relation": "references",
@@ -3625,8 +4451,8 @@
       "source_file": "docs/superpowers/plans/2026-05-26-cbz-merger-overhaul.md",
       "source_location": "Task 3 \u2014 test_smart_namer.py",
       "weight": 1.0,
-      "source": "test_smartnamer",
-      "target": "class_smartnamer"
+      "source": "class_smartnamer",
+      "target": "test_smartnamer"
     },
     {
       "relation": "references",
@@ -3635,8 +4461,8 @@
       "source_file": "CHANGELOG.md",
       "source_location": "Added \u2014 SmartNamer",
       "weight": 1.0,
-      "source": "v2_pyqt6",
-      "target": "class_smartnamer"
+      "source": "class_smartnamer",
+      "target": "v2_pyqt6"
     },
     {
       "relation": "calls",
@@ -3645,8 +4471,8 @@
       "source_file": "docs/superpowers/plans/2026-05-26-cbz-merger-overhaul.md",
       "source_location": "Task 4 \u2014 _start_merge",
       "weight": 1.0,
-      "source": "class_mainwindow",
-      "target": "class_mergeworker"
+      "source": "class_mergeworker",
+      "target": "class_mainwindow"
     },
     {
       "relation": "references",
@@ -3655,8 +4481,8 @@
       "source_file": "CHANGELOG.md",
       "source_location": "Added \u2014 MergeWorker",
       "weight": 1.0,
-      "source": "v2_pyqt6",
-      "target": "class_mergeworker"
+      "source": "class_mergeworker",
+      "target": "v2_pyqt6"
     },
     {
       "relation": "calls",
@@ -3665,8 +4491,8 @@
       "source_file": "docs/superpowers/plans/2026-05-26-cbz-merger-overhaul.md",
       "source_location": "Task 4 \u2014 MainWindow._build_ui",
       "weight": 1.0,
-      "source": "class_mainwindow",
-      "target": "class_filelistwidget"
+      "source": "class_filelistwidget",
+      "target": "class_mainwindow"
     },
     {
       "relation": "references",
@@ -3675,8 +4501,8 @@
       "source_file": "CHANGELOG.md",
       "source_location": "Added \u2014 FileListWidget",
       "weight": 1.0,
-      "source": "v2_pyqt6",
-      "target": "class_filelistwidget"
+      "source": "class_filelistwidget",
+      "target": "v2_pyqt6"
     },
     {
       "relation": "references",
@@ -3695,8 +4521,8 @@
       "source_file": "docs/superpowers/plans/2026-05-26-cbz-merger-overhaul.md",
       "source_location": "Task 5",
       "weight": 1.0,
-      "source": "build_bat",
-      "target": "dep_pyqt6"
+      "source": "dep_pyqt6",
+      "target": "build_bat"
     },
     {
       "relation": "rationale_for",
@@ -3705,8 +4531,8 @@
       "source_file": "docs/superpowers/specs/2026-05-26-cbz-merger-overhaul-design.md",
       "source_location": "Overview",
       "weight": 1.0,
-      "source": "rationale_pyqt6_migration",
-      "target": "dep_pyqt6"
+      "source": "dep_pyqt6",
+      "target": "rationale_pyqt6_migration"
     },
     {
       "relation": "rationale_for",
@@ -3715,8 +4541,8 @@
       "source_file": "CHANGELOG.md",
       "source_location": "[2.0.0] Overview",
       "weight": 1.0,
-      "source": "v2_pyqt6",
-      "target": "rationale_pyqt6_migration"
+      "source": "rationale_pyqt6_migration",
+      "target": "v2_pyqt6"
     },
     {
       "relation": "rationale_for",
@@ -3725,8 +4551,8 @@
       "source_file": "CHANGELOG.md",
       "source_location": "Added \u2014 Auto-clear after merge",
       "weight": 1.0,
-      "source": "v2_pyqt6",
-      "target": "rationale_autoclear"
+      "source": "rationale_autoclear",
+      "target": "v2_pyqt6"
     },
     {
       "relation": "rationale_for",
@@ -3735,8 +4561,8 @@
       "source_file": "CHANGELOG.md",
       "source_location": "Fixed \u2014 add_files counting bug",
       "weight": 1.0,
-      "source": "v2_pyqt6",
-      "target": "rationale_bugfix_addfiles"
+      "source": "rationale_bugfix_addfiles",
+      "target": "v2_pyqt6"
     },
     {
       "relation": "references",
@@ -3745,8 +4571,8 @@
       "source_file": "CHANGELOG.md",
       "source_location": "Added \u2014 Light/Dark theme",
       "weight": 1.0,
-      "source": "v2_pyqt6",
-      "target": "feature_lightdark_theme"
+      "source": "feature_lightdark_theme",
+      "target": "v2_pyqt6"
     },
     {
       "relation": "references",
@@ -3755,8 +4581,398 @@
       "source_file": "CHANGELOG.md",
       "source_location": "Complete rewrite from tkinter to PyQt6",
       "weight": 1.0,
-      "source": "v2_pyqt6",
-      "target": "v1_tkinter"
+      "source": "v1_tkinter",
+      "target": "v2_pyqt6"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_tests_test_smart_namer_py",
+      "target": "tests_test_smart_namer_test_parenthesized_number_range"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_tests_test_smart_namer_py",
+      "target": "tests_test_smart_namer_test_square_bracket_number_range"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Merger/tests/test_smart_namer.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "merger_tests_test_smart_namer_py",
+      "target": "tests_test_smart_namer_test_parenthesized_number_two_files"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 395",
+      "weight": 1.0,
+      "source": "CBZMerger",
+      "target": "MergeWorker"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 437",
+      "weight": 1.0,
+      "source": "CBZMerger",
+      "target": "FileListWidget"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 782",
+      "weight": 1.0,
+      "source": "CBZMerger",
+      "target": "MainWindow"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 212",
+      "weight": 1.0,
+      "source": "CBZMerger",
+      "target": "merge_archives_method"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 169",
+      "weight": 1.0,
+      "source": "CBZMerger",
+      "target": "extract_archive_method"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 190",
+      "weight": 1.0,
+      "source": "CBZMerger",
+      "target": "natural_sort_key_method"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 195",
+      "weight": 1.0,
+      "source": "CBZMerger",
+      "target": "collect_images_method"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 157",
+      "weight": 1.0,
+      "source": "CBZMerger",
+      "target": "find_archives_method"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "CBZMerger",
+      "target": "README"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 756",
+      "weight": 1.0,
+      "source": "SmartNamer",
+      "target": "MainWindow"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_smart_namer.py",
+      "source_location": "line 1",
+      "weight": 1.0,
+      "source": "SmartNamer",
+      "target": "test_smart_namer"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 306",
+      "weight": 1.0,
+      "source": "SmartNamer",
+      "target": "suggest_method"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "SmartNamer",
+      "target": "README"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "SmartNamer",
+      "target": "smart_naming_concept"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 399",
+      "weight": 1.0,
+      "source": "MergeWorker",
+      "target": "merge_archives_method"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 836",
+      "weight": 1.0,
+      "source": "MergeWorker",
+      "target": "MainWindow"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "MergeWorker",
+      "target": "README"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "MergeWorker",
+      "target": "background_thread_concept"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 449",
+      "weight": 1.0,
+      "source": "FileListWidget",
+      "target": "natural_sort_key_method"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 535",
+      "weight": 1.0,
+      "source": "FileListWidget",
+      "target": "MainWindow"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "FileListWidget",
+      "target": "README"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "FileListWidget",
+      "target": "drag_drop_concept"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 861",
+      "weight": 1.0,
+      "source": "MainWindow",
+      "target": "LIGHT_QSS"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 861",
+      "weight": 1.0,
+      "source": "MainWindow",
+      "target": "DARK_QSS"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 871",
+      "weight": 1.0,
+      "source": "MainWindow",
+      "target": "main_func"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "MainWindow",
+      "target": "README"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 821",
+      "weight": 1.0,
+      "source": "MainWindow",
+      "target": "suggest_method"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_smart_namer.py",
+      "source_location": "line 7",
+      "weight": 1.0,
+      "source": "test_smart_namer",
+      "target": "suggest_method"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "line 165",
+      "weight": 1.0,
+      "source": "README",
+      "target": "CHANGELOG"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CHANGELOG.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "CHANGELOG",
+      "target": "pyqt6_migration"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 248",
+      "weight": 1.0,
+      "source": "merge_archives_method",
+      "target": "extract_archive_method"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 240",
+      "weight": 1.0,
+      "source": "merge_archives_method",
+      "target": "collect_images_method"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 34",
+      "weight": 0.85,
+      "source": "merge_archives_method",
+      "target": "pdf_support"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 29",
+      "weight": 0.85,
+      "source": "extract_archive_method",
+      "target": "rar_support"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 167",
+      "weight": 1.0,
+      "source": "natural_sort_key_method",
+      "target": "find_archives_method"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "cbz_merger.py",
+      "source_location": "line 206",
+      "weight": 1.0,
+      "source": "natural_sort_key_method",
+      "target": "collect_images_method"
     }
   ],
   "hyperedges": [
@@ -3829,5 +5045,5 @@
       "source_file": "docs/superpowers/plans/2026-05-26-cbz-merger-overhaul.md"
     }
   ],
-  "built_at_commit": "00dd1eb5c2311c2e6faf05e2a36491847734f831"
+  "built_at_commit": "42ed69fafe4a9779918a2e2ab7e2783485e10b56"
 }

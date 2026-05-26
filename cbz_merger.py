@@ -21,9 +21,9 @@ from typing import Optional
 from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QPushButton, QListWidget, QListWidgetItem, QLabel, QProgressBar,
-    QTextEdit, QCheckBox, QFileDialog, QMessageBox,
+    QTextEdit, QCheckBox, QFileDialog, QMessageBox, QAbstractItemView,
 )
-from PyQt6.QtCore import Qt, QThread, pyqtSignal, QSettings
+from PyQt6.QtCore import Qt, QThread, pyqtSignal, QSettings, QEvent
 from PyQt6.QtGui import QFont, QDragEnterEvent, QDropEvent
 
 try:
@@ -414,10 +414,33 @@ class FileListWidget(QWidget):
 
         self.list_widget = QListWidget()
         self.list_widget.setSelectionMode(QListWidget.SelectionMode.ExtendedSelection)
+        self.list_widget.setDragEnabled(True)
+        self.list_widget.setAcceptDrops(True)
+        self.list_widget.setDropIndicatorShown(True)
+        self.list_widget.setDragDropMode(QAbstractItemView.DragDropMode.InternalMove)
+        self.list_widget.setDefaultDropAction(Qt.DropAction.MoveAction)
+        self.list_widget.viewport().installEventFilter(self)
+        self.list_widget.model().rowsMoved.connect(lambda *_: self._sync_files_from_list())
         layout.addWidget(self.list_widget)
 
         self.setAcceptDrops(True)
         self._refresh_list()
+
+    def eventFilter(self, source, event):
+        if source is self.list_widget.viewport():
+            if event.type() in {QEvent.Type.DragEnter, QEvent.Type.DragMove} and event.mimeData().hasUrls():
+                event.acceptProposedAction()
+                self.list_widget.setStyleSheet("QListWidget { border: 2px dashed #0d6efd; }")
+                return True
+            if event.type() == QEvent.Type.DragLeave:
+                self.list_widget.setStyleSheet("")
+            if event.type() == QEvent.Type.Drop and event.mimeData().hasUrls():
+                self.list_widget.setStyleSheet("")
+                paths = [url.toLocalFile() for url in event.mimeData().urls()]
+                self.add_items(paths)
+                event.acceptProposedAction()
+                return True
+        return super().eventFilter(source, event)
 
     def dragEnterEvent(self, event: QDragEnterEvent):
         if event.mimeData().hasUrls():
@@ -483,6 +506,17 @@ class FileListWidget(QWidget):
     def get_files(self) -> list:
         return self._files.copy()
 
+    def _sync_files_from_list(self):
+        ordered_files = []
+        for row in range(self.list_widget.count()):
+            filepath = self.list_widget.item(row).data(Qt.ItemDataRole.UserRole)
+            if filepath:
+                ordered_files.append(filepath)
+        if ordered_files != self._files:
+            self._files = ordered_files
+            self._refresh_list()
+            self.files_changed.emit(self._files.copy())
+
     def _refresh_list(self):
         self.list_widget.clear()
         if not self._files:
@@ -504,7 +538,9 @@ class FileListWidget(QWidget):
             if os.path.isfile(filepath):
                 size_mb = os.path.getsize(filepath) / (1024 * 1024)
                 label += f"    {size_mb:.1f} MB"
-            self.list_widget.addItem(QListWidgetItem(label))
+            item = QListWidgetItem(label)
+            item.setData(Qt.ItemDataRole.UserRole, filepath)
+            self.list_widget.addItem(item)
 
 
 class MainWindow(QMainWindow):
