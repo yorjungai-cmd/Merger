@@ -149,6 +149,18 @@ class CBZMerger:
                     return True
         return False
 
+    def find_archives_in_folder(self, folderpath: str) -> list:
+        """Returns naturally-sorted list of archive files directly inside folderpath."""
+        if not os.path.isdir(folderpath):
+            return []
+        archives = [
+            os.path.join(folderpath, f)
+            for f in os.listdir(folderpath)
+            if os.path.isfile(os.path.join(folderpath, f))
+            and Path(f).suffix.lower() in self.SUPPORTED_EXTENSIONS
+        ]
+        return sorted(archives, key=self.natural_sort_key)
+
     def extract_archive(self, archive_path: str, extract_to: str) -> bool:
         ext = Path(archive_path).suffix.lower()
         archive_name = Path(archive_path).stem
@@ -732,17 +744,23 @@ class MainWindow(QMainWindow):
             self._append_log(f"➕ Added {added} file(s)")
 
     def _add_folder(self):
-        folder = QFileDialog.getExistingDirectory(self, "Select Image Folder")
+        folder = QFileDialog.getExistingDirectory(self, "Select Folder")
         if not folder:
             return
-        if not CBZMerger().is_image_folder(folder):
-            QMessageBox.warning(self, "No Images", f"No images found in:\n{Path(folder).name}")
-            return
-        added = self.file_list.add_items([folder])
-        if added:
-            self._append_log(f"📁 Added: {Path(folder).name}")
+        merger = CBZMerger()
+        archives = merger.find_archives_in_folder(folder)
+        if archives:
+            added = self.file_list.add_items(archives)
+            self._append_log(f"📁 Added {added} archive(s) from: {Path(folder).name}")
+        elif merger.is_image_folder(folder):
+            added = self.file_list.add_items([folder])
+            if added:
+                self._append_log(f"📁 Added: {Path(folder).name}")
+            else:
+                self._append_log("⚠️ Folder already in list")
         else:
-            self._append_log("⚠️ Folder already in list")
+            QMessageBox.warning(self, "Nothing Found",
+                f"No supported archives or images found in:\n{Path(folder).name}")
 
     def _append_log(self, text: str):
         self.log_text.append(text)

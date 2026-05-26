@@ -89,3 +89,26 @@ def test_extract_unsupported_extension_returns_false(tmp_path):
     f.write_bytes(b"fake")
     merger = CBZMerger()
     assert merger.extract_archive(str(f), str(tmp_path)) is False
+
+
+def test_find_archives_in_folder_returns_sorted_archives(tmp_path):
+    for name in ["vol003.cbz", "vol001.cbz", "vol002.zip", "readme.txt"]:
+        (tmp_path / name).write_bytes(b"x")
+    merger = CBZMerger()
+    result = merger.find_archives_in_folder(str(tmp_path))
+    names = [Path(p).name for p in result]
+    assert names == ["vol001.cbz", "vol002.zip", "vol003.cbz"]
+
+
+def test_find_archives_in_folder_empty_when_no_archives(tmp_path):
+    (tmp_path / "image.jpg").write_bytes(b"x")
+    merger = CBZMerger()
+    assert merger.find_archives_in_folder(str(tmp_path)) == []
+
+
+def test_find_archives_in_folder_non_recursive(tmp_path):
+    sub = tmp_path / "sub"
+    sub.mkdir()
+    (sub / "nested.cbz").write_bytes(b"x")
+    merger = CBZMerger()
+    assert merger.find_archives_in_folder(str(tmp_path)) == []
