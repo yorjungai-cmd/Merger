@@ -1,7 +1,7 @@
 # CBZ Merger — Operational Clean UI Refresh Design
 
 **Date:** 2026-05-26
-**Status:** Approved for planning
+**Status:** Implemented
 **Target Version:** 2.1.0
 
 ---
@@ -11,6 +11,18 @@
 Refresh the CBZ Merger interface toward an **Operational Clean UI**: a quiet, precise utility surface designed for repeated work with many comic archives. The app should feel more like a focused desktop tool than a decorative showcase. The existing PyQt6 single-file architecture remains in place.
 
 This refresh does not change merge behavior. It reorganizes visual hierarchy, file-list readability, metadata presentation, and action placement around the workflows already present in v2.0.3.
+
+---
+
+## Implementation Notes
+
+### 2.1.0 — 2026-05-26
+
+- Implemented structured text rows in `FileListWidget`: `index | type | filename | images | size`.
+- Reworked the smart summary strip to show suggested filename, total images, and output type.
+- Added total image count to the options row summary.
+- Refreshed light and dark QSS toward neutral operational surfaces.
+- Preserved existing merge logic, drag reorder behavior, and external drag/drop.
 
 ---
 

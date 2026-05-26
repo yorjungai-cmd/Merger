@@ -1,9 +1,9 @@
-# CBZ Merger 2.0.3
+# CBZ Merger 2.1.0
 
 **Crafted by Yor Anupong**
 
 > รวมไฟล์การ์ตูน CBZ / CBR / ZIP / RAR และโฟลเดอร์รูปภาพหลายไฟล์เข้าเป็นไฟล์เดียว
-> ออกแบบมาสำหรับ Windows · PyQt6 · Light/Dark theme
+> ออกแบบมาสำหรับ Windows · PyQt6 · Operational Clean UI · Light/Dark theme
 
 ---
 
@@ -18,6 +18,7 @@
 | **Drag & Drop** | ลากไฟล์/โฟลเดอร์วางลงได้ทันที |
 | **Drag reorder** | ลากรายการใน list เพื่อเปลี่ยนลำดับการ merge ได้โดยตรง |
 | **Image counts** | แสดงจำนวนรูปในแต่ละไฟล์ และจำนวนรูปทั้งหมดตามรายการที่จะ merge |
+| **Operational Clean UI** | UI แบบเรียบ คม อ่านรายการไฟล์และ metadata ได้ง่ายขึ้น |
 | **Light / Dark Theme** | สลับธีมด้วยปุ่มเดียว บันทึกค่าอัตโนมัติ |
 | **Natural Sort** | เรียง img1 → img2 → img10 ถูกต้อง (ไม่ใช่ img1 → img10 → img2) |
 | **Background Thread** | ประมวลผลใน background UI ไม่ค้าง |
@@ -131,7 +132,7 @@ Merger/
 ├── build.bat               ← PyInstaller build script
 ├── tests/
 │   ├── test_core.py             ← CBZMerger unit tests (15 tests)
-│   ├── test_file_list_widget.py ← FileListWidget unit tests (2 tests)
+│   ├── test_file_list_widget.py ← FileListWidget unit tests (4 tests)
 │   └── test_smart_namer.py      ← SmartNamer unit tests (12 tests)
 └── docs/
     └── superpowers/
@@ -161,7 +162,7 @@ Merger/
 pytest tests/ -v
 ```
 
-Expected: **29 tests passed**
+Expected: **31 tests passed**
 
 ---
 
@@ -177,4 +178,4 @@ MIT — free to use, modify, and distribute.
 
 ---
 
-*CBZ Merger 2.0.3 · Crafted by Yor Anupong*
+*CBZ Merger 2.1.0 · Crafted by Yor Anupong*

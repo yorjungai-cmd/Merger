@@ -50,3 +50,43 @@ def test_shows_image_count_per_file_and_total(tmp_path):
     assert "2 images" in widget.list_widget.item(0).text()
     assert "1 image" in widget.list_widget.item(1).text()
     assert widget.total_image_count() == 3
+
+
+def test_formats_file_rows_as_operational_metadata(tmp_path):
+    app = _app()
+    archive = tmp_path / "vol001.cbz"
+    import zipfile
+    with zipfile.ZipFile(archive, "w") as zf:
+        zf.writestr("001.jpg", b"x")
+        zf.writestr("002.png", b"x")
+
+    widget = FileListWidget()
+    widget.add_items([str(archive)])
+
+    text = widget.list_widget.item(0).text()
+    assert "01 | CBZ | vol001.cbz" in text
+    assert "2 images" in text
+    assert "MB" in text
+
+
+def test_total_image_count_updates_after_remove_and_clear(tmp_path):
+    app = _app()
+    paths = []
+    import zipfile
+    for archive_name, image_names in [
+        ("vol001.cbz", ["001.jpg", "002.jpg"]),
+        ("vol002.cbz", ["003.jpg"]),
+    ]:
+        archive = tmp_path / archive_name
+        with zipfile.ZipFile(archive, "w") as zf:
+            for image_name in image_names:
+                zf.writestr(image_name, b"x")
+        paths.append(str(archive))
+
+    widget = FileListWidget()
+    widget.add_items(paths)
+    widget.list_widget.setCurrentRow(0)
+    widget.remove_selected()
+    assert widget.total_image_count() == 1
+    widget.clear()
+    assert widget.total_image_count() == 0

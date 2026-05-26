@@ -4,6 +4,22 @@ All notable changes to CBZ Merger are documented here.
 
 ---
 
+## [2.1.0] — 2026-05-26
+
+### Added
+
+- **Operational Clean UI refresh** — file rows now use a structured metadata layout for type, filename, image count, and file size.
+- **Compact output summary** — suggested filename, total image count, and output type now appear in a quieter summary strip.
+- **Options summary** — the options row now includes total image count when known.
+
+### Changed
+
+- Light and dark themes now use more neutral operational surfaces, clearer separators, and stronger selected-row states.
+- Merge buttons are still dominant but slightly more compact.
+- Program and documentation version bumped to `2.1.0`.
+
+---
+
 ## [2.0.3] — 2026-05-26
 
 ### Added

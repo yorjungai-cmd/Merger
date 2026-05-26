@@ -6,7 +6,7 @@ Combines CBZ, CBR, ZIP, RAR files and image folders into a single CBZ or PDF.
 Modern Clean UI · Light/Dark theme · PyQt6
 """
 
-__version__ = "2.0.3"
+__version__ = "2.1.0"
 __author__  = "Yor Anupong"
 APP_NAME    = "CBZ Merger"
 
@@ -40,83 +40,87 @@ except ImportError:
 
 
 LIGHT_QSS = """
-QMainWindow { background-color: #f8f9fa; }
-QWidget { background-color: #f8f9fa; color: #212529; font-family: "Segoe UI", Arial, sans-serif; }
-QWidget#header { background-color: #ffffff; border-bottom: 1px solid #e9ecef; }
-QWidget#toolbar { background-color: #ffffff; border-bottom: 1px solid #e9ecef; }
-QWidget#options_bar { background-color: #f8f9fa; border-bottom: 1px solid #e9ecef; }
-QWidget#footer { background-color: #ffffff; border-top: 1px solid #e9ecef; }
-QWidget#smart_bar { background-color: #fff9db; border: 1px solid #ffe066; border-radius: 6px; }
-QListWidget { background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 6px;
-              font-size: 12px; color: #212529; }
-QListWidget::item:selected { background-color: #e8f0fe; color: #0d6efd; }
-QProgressBar { background-color: #e9ecef; border-radius: 3px; text-align: center; max-height: 6px; }
+QMainWindow { background-color: #f4f6f8; }
+QWidget { background-color: #f4f6f8; color: #1f2937; font-family: "Segoe UI", Arial, sans-serif; }
+QWidget#header, QWidget#toolbar, QWidget#footer { background-color: #ffffff; }
+QWidget#header, QWidget#toolbar, QWidget#options_bar { border-bottom: 1px solid #d8dee6; }
+QWidget#footer { border-top: 1px solid #d8dee6; }
+QWidget#smart_bar { background-color: #ffffff; border: 1px solid #cfd8e3; border-radius: 6px; }
+QListWidget { background-color: #ffffff; border: 1px solid #cfd8e3; border-radius: 6px;
+              font-size: 12px; color: #1f2937; padding: 4px; font-family: Consolas, "Segoe UI", monospace; }
+QListWidget::item { padding: 7px 8px; border-radius: 4px; }
+QListWidget::item:selected { background-color: #e7f0ff; color: #0b5ed7; }
+QProgressBar { background-color: #d8dee6; border-radius: 3px; text-align: center; max-height: 6px; }
 QProgressBar::chunk { background-color: #0d6efd; border-radius: 3px; }
-QTextEdit { background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 6px;
-            color: #495057; font-family: Consolas, monospace; font-size: 10px; }
-QCheckBox { color: #495057; font-size: 11px; }
-QLabel#subtext { color: #6c757d; font-size: 10px; }
-QLabel#badge_on { background-color: #d1e7dd; color: #0f5132; padding: 2px 8px;
+QTextEdit { background-color: #ffffff; border: 1px solid #cfd8e3; border-radius: 6px;
+            color: #4b5563; font-family: Consolas, monospace; font-size: 10px; }
+QCheckBox { color: #374151; font-size: 11px; }
+QLabel#subtext { color: #6b7280; font-size: 10px; }
+QLabel#meta { color: #64748b; font-size: 10px; }
+QLabel#badge_on { background-color: #dcfce7; color: #166534; padding: 2px 8px;
                   border-radius: 4px; font-size: 9px; font-weight: bold; }
-QLabel#badge_off { background-color: #e9ecef; color: #6c757d; padding: 2px 8px;
+QLabel#badge_off { background-color: #e5e7eb; color: #6b7280; padding: 2px 8px;
                    border-radius: 4px; font-size: 9px; }
+QPushButton { min-height: 24px; }
 QPushButton#btn_primary { background-color: #0d6efd; color: white; border: none;
                           border-radius: 6px; padding: 5px 14px; font-weight: bold; }
 QPushButton#btn_primary:hover { background-color: #0b5ed7; }
-QPushButton#btn_folder { background-color: #6f42c1; color: white; border: none;
+QPushButton#btn_folder { background-color: #4f46e5; color: white; border: none;
                          border-radius: 6px; padding: 5px 14px; font-weight: bold; }
-QPushButton#btn_folder:hover { background-color: #5a32a3; }
-QPushButton#btn_secondary { background-color: #f8f9fa; color: #495057;
-                            border: 1px solid #dee2e6; border-radius: 6px; padding: 5px 12px; }
-QPushButton#btn_secondary:hover { background-color: #e9ecef; }
+QPushButton#btn_folder:hover { background-color: #4338ca; }
+QPushButton#btn_secondary { background-color: #ffffff; color: #374151;
+                            border: 1px solid #cfd8e3; border-radius: 6px; padding: 5px 12px; }
+QPushButton#btn_secondary:hover { background-color: #eef2f7; }
 QPushButton#btn_merge { background-color: #198754; color: white; border: none;
-                        border-radius: 8px; padding: 10px 28px; font-size: 13px; font-weight: bold; }
+                        border-radius: 8px; padding: 9px 24px; font-size: 13px; font-weight: bold; }
 QPushButton#btn_merge:hover { background-color: #157347; }
-QPushButton#btn_merge:disabled { background-color: #adb5bd; color: #f8f9fa; }
-QPushButton#btn_merge_pdf { background-color: #6f42c1; color: white; border: none;
-                            border-radius: 8px; padding: 10px 28px; font-size: 13px; font-weight: bold; }
-QPushButton#btn_merge_pdf:hover { background-color: #5a32a3; }
-QPushButton#btn_merge_pdf:disabled { background-color: #adb5bd; color: #f8f9fa; }
+QPushButton#btn_merge:disabled { background-color: #9ca3af; color: #f8fafc; }
+QPushButton#btn_merge_pdf { background-color: #4f46e5; color: white; border: none;
+                            border-radius: 8px; padding: 9px 24px; font-size: 13px; font-weight: bold; }
+QPushButton#btn_merge_pdf:hover { background-color: #4338ca; }
+QPushButton#btn_merge_pdf:disabled { background-color: #9ca3af; color: #f8fafc; }
 """
 
 DARK_QSS = """
-QMainWindow { background-color: #1e1e2e; }
-QWidget { background-color: #1e1e2e; color: #cdd6f4; font-family: "Segoe UI", Arial, sans-serif; }
-QWidget#header { background-color: #181825; border-bottom: 1px solid #313244; }
-QWidget#toolbar { background-color: #181825; border-bottom: 1px solid #313244; }
-QWidget#options_bar { background-color: #1e1e2e; border-bottom: 1px solid #313244; }
-QWidget#footer { background-color: #181825; border-top: 1px solid #313244; }
-QWidget#smart_bar { background-color: #2a2a1a; border: 1px solid #3d3d00; border-radius: 6px; }
-QListWidget { background-color: #181825; border: 1px solid #313244; border-radius: 6px;
-              font-size: 12px; color: #cdd6f4; }
-QListWidget::item:selected { background-color: #313244; color: #89b4fa; }
-QProgressBar { background-color: #313244; border-radius: 3px; text-align: center; max-height: 6px; }
-QProgressBar::chunk { background-color: #89b4fa; border-radius: 3px; }
-QTextEdit { background-color: #181825; border: 1px solid #313244; border-radius: 6px;
-            color: #a6adc8; font-family: Consolas, monospace; font-size: 10px; }
-QCheckBox { color: #cdd6f4; font-size: 11px; }
-QLabel#subtext { color: #6c7086; font-size: 10px; }
-QLabel#badge_on { background-color: #1a3a2a; color: #a6e3a1; padding: 2px 8px;
+QMainWindow { background-color: #111827; }
+QWidget { background-color: #111827; color: #e5e7eb; font-family: "Segoe UI", Arial, sans-serif; }
+QWidget#header, QWidget#toolbar, QWidget#footer { background-color: #0f172a; }
+QWidget#header, QWidget#toolbar, QWidget#options_bar { border-bottom: 1px solid #243044; }
+QWidget#footer { border-top: 1px solid #243044; }
+QWidget#smart_bar { background-color: #111827; border: 1px solid #334155; border-radius: 6px; }
+QListWidget { background-color: #0b1020; border: 1px solid #334155; border-radius: 6px;
+              font-size: 12px; color: #e5e7eb; padding: 4px; font-family: Consolas, "Segoe UI", monospace; }
+QListWidget::item { padding: 7px 8px; border-radius: 4px; }
+QListWidget::item:selected { background-color: #1d4ed8; color: #eff6ff; }
+QProgressBar { background-color: #243044; border-radius: 3px; text-align: center; max-height: 6px; }
+QProgressBar::chunk { background-color: #3b82f6; border-radius: 3px; }
+QTextEdit { background-color: #0b1020; border: 1px solid #334155; border-radius: 6px;
+            color: #cbd5e1; font-family: Consolas, monospace; font-size: 10px; }
+QCheckBox { color: #e5e7eb; font-size: 11px; }
+QLabel#subtext { color: #94a3b8; font-size: 10px; }
+QLabel#meta { color: #94a3b8; font-size: 10px; }
+QLabel#badge_on { background-color: #143826; color: #86efac; padding: 2px 8px;
                   border-radius: 4px; font-size: 9px; font-weight: bold; }
-QLabel#badge_off { background-color: #313244; color: #6c7086; padding: 2px 8px;
+QLabel#badge_off { background-color: #1f2937; color: #94a3b8; padding: 2px 8px;
                    border-radius: 4px; font-size: 9px; }
-QPushButton#btn_primary { background-color: #89b4fa; color: #1e1e2e; border: none;
+QPushButton { min-height: 24px; }
+QPushButton#btn_primary { background-color: #2563eb; color: white; border: none;
                           border-radius: 6px; padding: 5px 14px; font-weight: bold; }
-QPushButton#btn_primary:hover { background-color: #74c7ec; }
-QPushButton#btn_folder { background-color: #cba6f7; color: #1e1e2e; border: none;
+QPushButton#btn_primary:hover { background-color: #1d4ed8; }
+QPushButton#btn_folder { background-color: #4f46e5; color: white; border: none;
                          border-radius: 6px; padding: 5px 14px; font-weight: bold; }
-QPushButton#btn_folder:hover { background-color: #f5c2e7; }
-QPushButton#btn_secondary { background-color: #313244; color: #cdd6f4;
-                            border: 1px solid #45475a; border-radius: 6px; padding: 5px 12px; }
-QPushButton#btn_secondary:hover { background-color: #45475a; }
-QPushButton#btn_merge { background-color: #a6e3a1; color: #1e1e2e; border: none;
-                        border-radius: 8px; padding: 10px 28px; font-size: 13px; font-weight: bold; }
-QPushButton#btn_merge:hover { background-color: #94e2d5; }
-QPushButton#btn_merge:disabled { background-color: #45475a; color: #6c7086; }
-QPushButton#btn_merge_pdf { background-color: #cba6f7; color: #1e1e2e; border: none;
-                            border-radius: 8px; padding: 10px 28px; font-size: 13px; font-weight: bold; }
-QPushButton#btn_merge_pdf:hover { background-color: #f5c2e7; }
-QPushButton#btn_merge_pdf:disabled { background-color: #45475a; color: #6c7086; }
+QPushButton#btn_folder:hover { background-color: #4338ca; }
+QPushButton#btn_secondary { background-color: #111827; color: #e5e7eb;
+                            border: 1px solid #334155; border-radius: 6px; padding: 5px 12px; }
+QPushButton#btn_secondary:hover { background-color: #1f2937; }
+QPushButton#btn_merge { background-color: #22c55e; color: #052e16; border: none;
+                        border-radius: 8px; padding: 9px 24px; font-size: 13px; font-weight: bold; }
+QPushButton#btn_merge:hover { background-color: #16a34a; }
+QPushButton#btn_merge:disabled { background-color: #334155; color: #94a3b8; }
+QPushButton#btn_merge_pdf { background-color: #8b5cf6; color: white; border: none;
+                            border-radius: 8px; padding: 9px 24px; font-size: 13px; font-weight: bold; }
+QPushButton#btn_merge_pdf:hover { background-color: #7c3aed; }
+QPushButton#btn_merge_pdf:disabled { background-color: #334155; color: #94a3b8; }
 """
 
 
@@ -558,33 +562,51 @@ class FileListWidget(QWidget):
     def _refresh_list(self):
         self.list_widget.clear()
         if not self._files:
-            item = QListWidgetItem("   Drop files or folders here\n   Supported: CBZ, CBR, ZIP, RAR, image folders")
+            item = QListWidgetItem("Drop files or folders here | Supported: CBZ, CBR, ZIP, RAR, image folders")
             item.setFlags(item.flags() & ~Qt.ItemFlag.ItemIsSelectable)
             self.list_widget.addItem(item)
             return
         for i, filepath in enumerate(self._files):
-            name = Path(filepath).name
-            ext  = Path(filepath).suffix.lower()
-            if os.path.isdir(filepath):
-                label = f"  {i+1:02d}.  📁  {name}/"
-            elif ext == ".cbz":
-                label = f"  {i+1:02d}.  📘  {name}"
-            elif ext == ".cbr":
-                label = f"  {i+1:02d}.  📕  {name}"
-            else:
-                label = f"  {i+1:02d}.  📦  {name}"
-            if os.path.isfile(filepath):
-                size_mb = os.path.getsize(filepath) / (1024 * 1024)
-                label += f"    {size_mb:.1f} MB"
-            image_count = self._image_counts.get(filepath)
-            if image_count is None:
-                label += " · ? images"
-            else:
-                unit = "image" if image_count == 1 else "images"
-                label += f" · {image_count} {unit}"
+            label = self._format_row_label(filepath, i + 1)
             item = QListWidgetItem(label)
             item.setData(Qt.ItemDataRole.UserRole, filepath)
             self.list_widget.addItem(item)
+
+    def _format_row_label(self, filepath: str, index: int) -> str:
+        name = Path(filepath).name
+        if os.path.isdir(filepath):
+            name = f"{name}/"
+        type_label = self._file_type_label(filepath)
+        image_label = self._image_count_label(filepath)
+        size_label = self._size_label(filepath)
+        return f"{index:02d} | {type_label:<3} | {name:<48} | {image_label:>10} | {size_label:>8}"
+
+    def _file_type_label(self, filepath: str) -> str:
+        if os.path.isdir(filepath):
+            return "DIR"
+        ext = Path(filepath).suffix.lower()
+        if ext == ".cbz":
+            return "CBZ"
+        if ext == ".cbr":
+            return "CBR"
+        if ext == ".zip":
+            return "ZIP"
+        if ext == ".rar":
+            return "RAR"
+        return "FILE"
+
+    def _image_count_label(self, filepath: str) -> str:
+        image_count = self._image_counts.get(filepath)
+        if image_count is None:
+            return "? images"
+        unit = "image" if image_count == 1 else "images"
+        return f"{image_count} {unit}"
+
+    def _size_label(self, filepath: str) -> str:
+        if not os.path.isfile(filepath):
+            return "folder"
+        size_mb = os.path.getsize(filepath) / (1024 * 1024)
+        return f"{size_mb:.1f} MB"
 
 
 class MainWindow(QMainWindow):
@@ -644,14 +666,15 @@ class MainWindow(QMainWindow):
         h = QHBoxLayout(w)
         h.setContentsMargins(20, 0, 20, 0)
 
-        icon = QLabel("📚")
-        icon.setFont(QFont("Segoe UI Emoji", 22))
+        icon = QLabel("CBZ")
+        icon.setObjectName("badge_on")
+        icon.setFont(QFont("Segoe UI", 10, QFont.Weight.Bold))
         h.addWidget(icon)
 
         titles = QVBoxLayout()
         title = QLabel(f"{APP_NAME} {__version__}")
         title.setFont(QFont("Segoe UI", 14, QFont.Weight.Bold))
-        sub = QLabel("Combine comic archives & image folders")
+        sub = QLabel("Operational comic archive merger")
         sub.setObjectName("subtext")
         titles.addWidget(title)
         titles.addWidget(sub)
@@ -701,7 +724,7 @@ class MainWindow(QMainWindow):
         w.setFixedHeight(36)
         h = QHBoxLayout(w)
         h.setContentsMargins(20, 0, 20, 0)
-        h.setSpacing(20)
+        h.setSpacing(16)
 
         lbl = QLabel("Options")
         lbl.setObjectName("subtext")
@@ -721,7 +744,7 @@ class MainWindow(QMainWindow):
 
         h.addStretch()
         self.counter_lbl = QLabel("No items")
-        self.counter_lbl.setObjectName("subtext")
+        self.counter_lbl.setObjectName("meta")
         h.addWidget(self.counter_lbl)
         return w
 
@@ -731,20 +754,21 @@ class MainWindow(QMainWindow):
         h = QHBoxLayout(w)
         h.setContentsMargins(12, 6, 12, 6)
 
-        h.addWidget(QLabel("💡"))
-        h.addWidget(QLabel("Suggested filename:"))
+        lbl = QLabel("Suggested:")
+        lbl.setObjectName("subtext")
+        h.addWidget(lbl)
 
         self.smart_name_lbl = QLabel("")
         self.smart_name_lbl.setFont(QFont("Consolas", 10, QFont.Weight.Bold))
         h.addWidget(self.smart_name_lbl)
 
-        hint = QLabel("(editable at save)")
-        hint.setObjectName("subtext")
-        h.addWidget(hint)
-
         self.total_images_lbl = QLabel("")
-        self.total_images_lbl.setObjectName("subtext")
+        self.total_images_lbl.setObjectName("meta")
         h.addWidget(self.total_images_lbl)
+
+        self.output_type_lbl = QLabel("")
+        self.output_type_lbl.setObjectName("meta")
+        h.addWidget(self.output_type_lbl)
         h.addStretch()
 
         w.setVisible(False)
@@ -809,7 +833,7 @@ class MainWindow(QMainWindow):
         h.addWidget(ver)
         h.addStretch()
 
-        self.merge_btn = QPushButton("🔀 Merge to CBZ")
+        self.merge_btn = QPushButton("Merge to CBZ")
         self.merge_btn.setObjectName("btn_merge")
         self.merge_btn.setFixedHeight(42)
         self.merge_btn.setMinimumWidth(180)
@@ -827,7 +851,11 @@ class MainWindow(QMainWindow):
             parts   = []
             if items:   parts.append(f"{items} file{'s' if items > 1 else ''}")
             if folders: parts.append(f"{folders} folder{'s' if folders > 1 else ''}")
-            self.counter_lbl.setText(" • ".join(parts))
+            total = self.file_list.total_image_count()
+            if total is not None:
+                unit = "image" if total == 1 else "images"
+                parts.append(f"{total} {unit}")
+            self.counter_lbl.setText(" · ".join(parts))
         self._update_smart_bar()
 
     def _update_smart_bar(self):
@@ -844,14 +872,19 @@ class MainWindow(QMainWindow):
             else:
                 unit = "image" if total == 1 else "images"
                 self.total_images_lbl.setText(f"Total: {total} {unit}")
+            self.output_type_lbl.setText(f"Output: {'PDF' if self.pdf_cb.isChecked() else 'CBZ'}")
+        else:
+            self.smart_name_lbl.setText("")
+            self.total_images_lbl.setText("")
+            self.output_type_lbl.setText("")
 
     def _on_pdf_toggled(self):
         is_pdf = self.pdf_cb.isChecked()
         if is_pdf:
-            self.merge_btn.setText("🔀 Merge to PDF")
+            self.merge_btn.setText("Merge to PDF")
             self.merge_btn.setObjectName("btn_merge_pdf")
         else:
-            self.merge_btn.setText("🔀 Merge to CBZ")
+            self.merge_btn.setText("Merge to CBZ")
             self.merge_btn.setObjectName("btn_merge")
         self.merge_btn.setStyle(self.merge_btn.style())
         self._update_smart_bar()
