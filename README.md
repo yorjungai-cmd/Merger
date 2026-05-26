@@ -1,4 +1,4 @@
-# CBZ Merger 2.1.0
+# CBZ Merger 2.1.1
 
 **Crafted by Yor Anupong**
 
@@ -133,6 +133,7 @@ Merger/
 ├── tests/
 │   ├── test_core.py             ← CBZMerger unit tests (15 tests)
 │   ├── test_file_list_widget.py ← FileListWidget unit tests (4 tests)
+│   ├── test_main_window_layout.py ← MainWindow layout tests (1 test)
 │   └── test_smart_namer.py      ← SmartNamer unit tests (12 tests)
 └── docs/
     └── superpowers/
@@ -162,7 +163,7 @@ Merger/
 pytest tests/ -v
 ```
 
-Expected: **31 tests passed**
+Expected: **32 tests passed**
 
 ---
 
@@ -178,4 +179,4 @@ MIT — free to use, modify, and distribute.
 
 ---
 
-*CBZ Merger 2.1.0 · Crafted by Yor Anupong*
+*CBZ Merger 2.1.1 · Crafted by Yor Anupong*

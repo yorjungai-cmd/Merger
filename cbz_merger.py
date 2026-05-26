@@ -6,7 +6,7 @@ Combines CBZ, CBR, ZIP, RAR files and image folders into a single CBZ or PDF.
 Modern Clean UI · Light/Dark theme · PyQt6
 """
 
-__version__ = "2.1.0"
+__version__ = "2.1.1"
 __author__  = "Yor Anupong"
 APP_NAME    = "CBZ Merger"
 
@@ -46,6 +46,7 @@ QWidget#header, QWidget#toolbar, QWidget#footer { background-color: #ffffff; }
 QWidget#header, QWidget#toolbar, QWidget#options_bar { border-bottom: 1px solid #d8dee6; }
 QWidget#footer { border-top: 1px solid #d8dee6; }
 QWidget#smart_bar { background-color: #ffffff; border: 1px solid #cfd8e3; border-radius: 6px; }
+QLabel { background-color: transparent; }
 QListWidget { background-color: #ffffff; border: 1px solid #cfd8e3; border-radius: 6px;
               font-size: 12px; color: #1f2937; padding: 4px; font-family: Consolas, "Segoe UI", monospace; }
 QListWidget::item { padding: 7px 8px; border-radius: 4px; }
@@ -56,6 +57,7 @@ QTextEdit { background-color: #ffffff; border: 1px solid #cfd8e3; border-radius:
             color: #4b5563; font-family: Consolas, monospace; font-size: 10px; }
 QCheckBox { color: #374151; font-size: 11px; }
 QLabel#subtext { color: #6b7280; font-size: 10px; }
+QLabel#version_label { color: #6b7280; font-size: 10px; background-color: transparent; }
 QLabel#meta { color: #64748b; font-size: 10px; }
 QLabel#badge_on { background-color: #dcfce7; color: #166534; padding: 2px 8px;
                   border-radius: 4px; font-size: 9px; font-weight: bold; }
@@ -88,6 +90,7 @@ QWidget#header, QWidget#toolbar, QWidget#footer { background-color: #0f172a; }
 QWidget#header, QWidget#toolbar, QWidget#options_bar { border-bottom: 1px solid #243044; }
 QWidget#footer { border-top: 1px solid #243044; }
 QWidget#smart_bar { background-color: #111827; border: 1px solid #334155; border-radius: 6px; }
+QLabel { background-color: transparent; }
 QListWidget { background-color: #0b1020; border: 1px solid #334155; border-radius: 6px;
               font-size: 12px; color: #e5e7eb; padding: 4px; font-family: Consolas, "Segoe UI", monospace; }
 QListWidget::item { padding: 7px 8px; border-radius: 4px; }
@@ -98,6 +101,7 @@ QTextEdit { background-color: #0b1020; border: 1px solid #334155; border-radius:
             color: #cbd5e1; font-family: Consolas, monospace; font-size: 10px; }
 QCheckBox { color: #e5e7eb; font-size: 11px; }
 QLabel#subtext { color: #94a3b8; font-size: 10px; }
+QLabel#version_label { color: #94a3b8; font-size: 10px; background-color: transparent; }
 QLabel#meta { color: #94a3b8; font-size: 10px; }
 QLabel#badge_on { background-color: #143826; color: #86efac; padding: 2px 8px;
                   border-radius: 4px; font-size: 9px; font-weight: bold; }
@@ -824,18 +828,18 @@ class MainWindow(QMainWindow):
     def _make_footer(self) -> QWidget:
         w = QWidget()
         w.setObjectName("footer")
-        w.setFixedHeight(56)
+        w.setFixedHeight(64)
         h = QHBoxLayout(w)
-        h.setContentsMargins(20, 0, 20, 0)
+        h.setContentsMargins(20, 8, 20, 8)
 
         ver = QLabel(f"v{__version__} · Crafted by {__author__}")
-        ver.setObjectName("subtext")
+        ver.setObjectName("version_label")
         h.addWidget(ver)
         h.addStretch()
 
         self.merge_btn = QPushButton("Merge to CBZ")
         self.merge_btn.setObjectName("btn_merge")
-        self.merge_btn.setFixedHeight(42)
+        self.merge_btn.setFixedHeight(40)
         self.merge_btn.setMinimumWidth(180)
         self.merge_btn.clicked.connect(self._start_merge)
         h.addWidget(self.merge_btn)

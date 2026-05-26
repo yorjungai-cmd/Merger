@@ -4,6 +4,18 @@ All notable changes to CBZ Merger are documented here.
 
 ---
 
+## [2.1.1] — 2026-05-26
+
+### Fixed
+
+- **Footer surface clipping** — version text in the lower footer now sits on a full-width footer surface in both light and dark themes instead of appearing inside a cut-off block.
+
+### Changed
+
+- Program and documentation version bumped to `2.1.1`.
+
+---
+
 ## [2.1.0] — 2026-05-26
 
 ### Added

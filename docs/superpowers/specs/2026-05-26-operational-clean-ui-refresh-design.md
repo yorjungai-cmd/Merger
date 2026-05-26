@@ -16,6 +16,11 @@ This refresh does not change merge behavior. It reorganizes visual hierarchy, fi
 
 ## Implementation Notes
 
+### 2.1.1 — 2026-05-26
+
+- Footer version label now uses a transparent label surface over the full-width footer background.
+- Footer height and vertical margins were increased to prevent the lower UI from looking cut off in light and dark themes.
+
 ### 2.1.0 — 2026-05-26
 
 - Implemented structured text rows in `FileListWidget`: `index | type | filename | images | size`.
