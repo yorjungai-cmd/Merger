@@ -1,0 +1,12 @@
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Brainstorm sessions
+.superpowers/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
