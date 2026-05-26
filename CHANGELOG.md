@@ -4,6 +4,18 @@ All notable changes to CBZ Merger are documented here.
 
 ---
 
+## [2.0.2] — 2026-05-26
+
+### Added
+
+- **Drag reorder in file list** — files can now be reordered directly by dragging items in the list, while the existing ▲/▼ buttons remain available.
+
+### Changed
+
+- Program and documentation version bumped to `2.0.2`.
+
+---
+
 ## [2.0.0] — 2026-05-26
 
 ### Overview

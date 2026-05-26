@@ -1,4 +1,4 @@
-# CBZ Merger 2.0
+# CBZ Merger 2.0.2
 
 **Crafted by Yor Anupong**
 
@@ -16,6 +16,7 @@
 | **Add Folder** | รองรับโฟลเดอร์ที่มีไฟล์ archive หรือรูปภาพข้างใน |
 | **PDF Export** | ส่งออกเป็น PDF ได้ (ต้องติดตั้ง `img2pdf`) |
 | **Drag & Drop** | ลากไฟล์/โฟลเดอร์วางลงได้ทันที |
+| **Drag reorder** | ลากรายการใน list เพื่อเปลี่ยนลำดับการ merge ได้โดยตรง |
 | **Light / Dark Theme** | สลับธีมด้วยปุ่มเดียว บันทึกค่าอัตโนมัติ |
 | **Natural Sort** | เรียง img1 → img2 → img10 ถูกต้อง (ไม่ใช่ img1 → img10 → img2) |
 | **Background Thread** | ประมวลผลใน background UI ไม่ค้าง |
@@ -32,7 +33,7 @@
 ## วิธีใช้งาน
 
 1. **เพิ่มไฟล์** — กด **＋ Add Files** หรือ **📁 Add Folder** หรือลากไฟล์วางลงใน list
-2. **จัดลำดับ** — ใช้ปุ่ม ▲ ▼ ปรับลำดับการ merge
+2. **จัดลำดับ** — ลากรายการใน list เพื่อเรียงลำดับ หรือใช้ปุ่ม ▲ ▼ ก็ได้
 3. **ตั้งค่า** — เปิด *Auto-name with smart range* และ/หรือ *Export as PDF*
 4. **Merge** — กด **🔀 Merge to CBZ** (หรือ Merge to PDF) เลือกที่บันทึก
 5. List และ Log จะล้างอัตโนมัติหลัง merge สำเร็จ
@@ -172,4 +173,4 @@ MIT — free to use, modify, and distribute.
 
 ---
 
-*CBZ Merger 2.0.1 · Crafted by Yor Anupong*
+*CBZ Merger 2.0.2 · Crafted by Yor Anupong*

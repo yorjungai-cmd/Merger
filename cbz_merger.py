@@ -6,7 +6,7 @@ Combines CBZ, CBR, ZIP, RAR files and image folders into a single CBZ or PDF.
 Modern Clean UI · Light/Dark theme · PyQt6
 """
 
-__version__ = "2.0.1"
+__version__ = "2.0.2"
 __author__  = "Yor Anupong"
 APP_NAME    = "CBZ Merger"
 

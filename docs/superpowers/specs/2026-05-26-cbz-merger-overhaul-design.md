@@ -5,6 +5,16 @@
 
 ---
 
+## Revision Notes
+
+### 2.0.2 — 2026-05-26
+
+- File list now supports drag-and-drop reordering inside the list.
+- Existing ▲/▼ reorder buttons remain available.
+- External drag-and-drop for adding files and folders remains supported.
+
+---
+
 ## Overview
 
 Complete rewrite of `cbz_merger.py` from tkinter to PyQt6. Preserves all existing functionality, fixes 3 confirmed bugs, adds 2 new features, and establishes a Modern Clean UI with Light/Dark theme toggle. Output remains a single Python file distributable as source or compiled `.exe`.
@@ -55,6 +65,7 @@ Encapsulates the file list area: QListWidget + drag-and-drop registration + visu
 - `clear()`
 - `move_up()`
 - `move_down()`
+- Drag items within the list to reorder merge sequence
 - `get_files()` → List[str]
 
 #### `MainWindow(QMainWindow)`
