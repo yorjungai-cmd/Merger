@@ -192,5 +192,58 @@ class CBZMerger:
                 return False
 
 
+class SmartNamer:
+    """Suggests a merged output filename from a list of input file stems."""
+
+    def suggest(self, stems: list, extension: str) -> str:
+        if not stems:
+            return f"Merged{extension}"
+        if len(stems) == 1:
+            return f"{stems[0]}{extension}"
+
+        numbers = [self._last_number(s) for s in stems]
+        if any(n is None for n in numbers):
+            return f"{stems[0]}_Merged{extension}"
+
+        prefixes = [self._prefix_before_last_number(s) for s in stems]
+        common = self._common_prefix(prefixes).rstrip(" -_.")
+
+        min_n, max_n = min(numbers), max(numbers)
+        if min_n == max_n:
+            return f"{stems[0]}{extension}"
+
+        if common:
+            return f"{common} {min_n}-{max_n}{extension}"
+        return f"{min_n}-{max_n}{extension}"
+
+    def _last_number(self, stem: str) -> Optional[int]:
+        parts = re.split(r'(\d+)', stem)
+        for part in reversed(parts):
+            if part.isdigit():
+                return int(part)
+        return None
+
+    def _prefix_before_last_number(self, stem: str) -> str:
+        parts = re.split(r'(\d+)', stem)
+        last_digit_idx = -1
+        for i, p in enumerate(parts):
+            if p.isdigit():
+                last_digit_idx = i
+        if last_digit_idx == -1:
+            return stem
+        return ''.join(parts[:last_digit_idx])
+
+    def _common_prefix(self, strings: list) -> str:
+        if not strings:
+            return ''
+        prefix = strings[0]
+        for s in strings[1:]:
+            while not s.startswith(prefix):
+                prefix = prefix[:-1]
+                if not prefix:
+                    return ''
+        return prefix
+
+
 if __name__ == "__main__":
     print("CBZMerger core loaded OK")
