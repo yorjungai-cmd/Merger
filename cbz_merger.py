@@ -402,7 +402,7 @@ class FileListWidget(QWidget):
                 self._files.append(path)
                 added += 1
         if added:
-            self._files.sort(key=CBZMerger().natural_sort_key)
+            self._files.sort(key=merger.natural_sort_key)
             self._refresh_list()
             self.files_changed.emit(self._files.copy())
         return added
@@ -487,6 +487,10 @@ class MainWindow(QMainWindow):
         root.setContentsMargins(0, 0, 0, 0)
         root.setSpacing(0)
 
+        # FileListWidget must be created before toolbar (toolbar binds to its slots)
+        self.file_list = FileListWidget()
+        self.file_list.files_changed.connect(self._on_files_changed)
+
         root.addWidget(self._make_header())
         root.addWidget(self._make_toolbar())
         root.addWidget(self._make_options_bar())
@@ -496,8 +500,6 @@ class MainWindow(QMainWindow):
         inner_layout.setContentsMargins(20, 12, 20, 12)
         inner_layout.setSpacing(8)
 
-        self.file_list = FileListWidget()
-        self.file_list.files_changed.connect(self._on_files_changed)
         inner_layout.addWidget(self.file_list, stretch=1)
 
         self.smart_bar = self._make_smart_bar()
@@ -799,8 +801,6 @@ class MainWindow(QMainWindow):
         self.file_list.clear()
         self._clear_log()
         self._on_progress(0, "Ready")
-        self.status_lbl.setText("Ready")
-        self.pct_lbl.setText("")
 
     def _toggle_theme(self):
         self._dark = not self._dark
