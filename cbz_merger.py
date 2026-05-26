@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Yor CBZ Merger v3.0 — Comic Book Archive Merger Tool
+CBZ Merger 2.0 — Comic Book Archive Merger Tool
+Crafted by Yor Anupong
 Combines CBZ, CBR, ZIP, RAR files and image folders into a single CBZ or PDF.
 Modern Clean UI · Light/Dark theme · PyQt6
 """
@@ -480,7 +481,7 @@ class MainWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("CBZ Merger")
+        self.setWindowTitle("CBZ Merger 2.0")
         self.setMinimumSize(700, 600)
         self.resize(950, 750)
 
@@ -537,7 +538,7 @@ class MainWindow(QMainWindow):
         h.addWidget(icon)
 
         titles = QVBoxLayout()
-        title = QLabel("CBZ Merger")
+        title = QLabel("CBZ Merger 2.0")
         title.setFont(QFont("Segoe UI", 14, QFont.Weight.Bold))
         sub = QLabel("Combine comic archives & image folders")
         sub.setObjectName("subtext")
@@ -688,7 +689,7 @@ class MainWindow(QMainWindow):
         h = QHBoxLayout(w)
         h.setContentsMargins(20, 0, 20, 0)
 
-        ver = QLabel("v3.0 · Yor Edition")
+        ver = QLabel("v2.0 · Crafted by Yor Anupong")
         ver.setObjectName("subtext")
         h.addWidget(ver)
         h.addStretch()
@@ -836,7 +837,7 @@ class MainWindow(QMainWindow):
 
 def main():
     app = QApplication(sys.argv)
-    app.setApplicationName("CBZ Merger")
+    app.setApplicationName("CBZ Merger 2.0")
     window = MainWindow()
     window.show()
     sys.exit(app.exec())
