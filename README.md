@@ -1,4 +1,4 @@
-# CBZ Merger 2.0.2
+# CBZ Merger 2.0.3
 
 **Crafted by Yor Anupong**
 
@@ -17,6 +17,7 @@
 | **PDF Export** | ส่งออกเป็น PDF ได้ (ต้องติดตั้ง `img2pdf`) |
 | **Drag & Drop** | ลากไฟล์/โฟลเดอร์วางลงได้ทันที |
 | **Drag reorder** | ลากรายการใน list เพื่อเปลี่ยนลำดับการ merge ได้โดยตรง |
+| **Image counts** | แสดงจำนวนรูปในแต่ละไฟล์ และจำนวนรูปทั้งหมดตามรายการที่จะ merge |
 | **Light / Dark Theme** | สลับธีมด้วยปุ่มเดียว บันทึกค่าอัตโนมัติ |
 | **Natural Sort** | เรียง img1 → img2 → img10 ถูกต้อง (ไม่ใช่ img1 → img10 → img2) |
 | **Background Thread** | ประมวลผลใน background UI ไม่ค้าง |
@@ -37,6 +38,8 @@
 3. **ตั้งค่า** — เปิด *Auto-name with smart range* และ/หรือ *Export as PDF*
 4. **Merge** — กด **🔀 Merge to CBZ** (หรือ Merge to PDF) เลือกที่บันทึก
 5. List และ Log จะล้างอัตโนมัติหลัง merge สำเร็จ
+
+จำนวนรูปจะแสดงหลังขนาดไฟล์ เช่น `72.6 MB · 184 images` และ smart name bar จะแสดงจำนวนรูปทั้งหมดหลังรวมไฟล์
 
 ---
 
@@ -127,8 +130,9 @@ Merger/
 ├── requirements.txt        ← Python dependencies
 ├── build.bat               ← PyInstaller build script
 ├── tests/
-│   ├── test_core.py        ← CBZMerger unit tests (13 tests)
-│   └── test_smart_namer.py ← SmartNamer unit tests (12 tests)
+│   ├── test_core.py             ← CBZMerger unit tests (15 tests)
+│   ├── test_file_list_widget.py ← FileListWidget unit tests (2 tests)
+│   └── test_smart_namer.py      ← SmartNamer unit tests (12 tests)
 └── docs/
     └── superpowers/
         ├── specs/          ← Design specification
@@ -157,7 +161,7 @@ Merger/
 pytest tests/ -v
 ```
 
-Expected: **25 tests passed**
+Expected: **29 tests passed**
 
 ---
 
@@ -173,4 +177,4 @@ MIT — free to use, modify, and distribute.
 
 ---
 
-*CBZ Merger 2.0.2 · Crafted by Yor Anupong*
+*CBZ Merger 2.0.3 · Crafted by Yor Anupong*

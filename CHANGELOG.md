@@ -4,6 +4,19 @@ All notable changes to CBZ Merger are documented here.
 
 ---
 
+## [2.0.3] — 2026-05-26
+
+### Added
+
+- **Per-item image counts** — each file list row now shows the number of images inside the archive or folder after the file size.
+- **Merged total image count** — the smart filename bar now shows the total number of images that will be included after merging the current list.
+
+### Changed
+
+- Program and documentation version bumped to `2.0.3`.
+
+---
+
 ## [2.0.2] — 2026-05-26
 
 ### Added

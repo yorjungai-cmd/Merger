@@ -6,7 +6,7 @@ Combines CBZ, CBR, ZIP, RAR files and image folders into a single CBZ or PDF.
 Modern Clean UI · Light/Dark theme · PyQt6
 """
 
-__version__ = "2.0.2"
+__version__ = "2.0.3"
 __author__  = "Yor Anupong"
 APP_NAME    = "CBZ Merger"
 
@@ -165,6 +165,33 @@ class CBZMerger:
             and Path(f).suffix.lower() in self.SUPPORTED_EXTENSIONS
         ]
         return sorted(archives, key=self.natural_sort_key)
+
+    def count_images_in_item(self, item_path: str) -> Optional[int]:
+        """Count images in an archive or image folder without extracting when possible."""
+        try:
+            if os.path.isdir(item_path):
+                return len(self.collect_images_by_subfolder(item_path))
+
+            ext = Path(item_path).suffix.lower()
+            if ext in {'.cbz', '.zip'}:
+                with zipfile.ZipFile(item_path, 'r') as zf:
+                    return sum(
+                        1 for info in zf.infolist()
+                        if not info.is_dir() and self.is_image_file(info.filename)
+                    )
+
+            if ext in {'.cbr', '.rar'}:
+                if not RAR_SUPPORT:
+                    return None
+                with rarfile.RarFile(item_path, 'r') as rf:
+                    return sum(
+                        1 for info in rf.infolist()
+                        if not getattr(info, "isdir", lambda: False)()
+                        and self.is_image_file(info.filename)
+                    )
+        except Exception:
+            return None
+        return None
 
     def extract_archive(self, archive_path: str, extract_to: str) -> bool:
         ext = Path(archive_path).suffix.lower()
@@ -408,6 +435,7 @@ class FileListWidget(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
         self._files: list[str] = []
+        self._image_counts: dict[str, Optional[int]] = {}
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(0, 0, 0, 0)
@@ -464,9 +492,11 @@ class FileListWidget(QWidget):
                 continue
             if os.path.isdir(path) and merger.is_image_folder(path):
                 self._files.append(path)
+                self._image_counts[path] = merger.count_images_in_item(path)
                 added += 1
             elif os.path.isfile(path) and Path(path).suffix.lower() in CBZMerger.SUPPORTED_EXTENSIONS:
                 self._files.append(path)
+                self._image_counts[path] = merger.count_images_in_item(path)
                 added += 1
         if added:
             self._files.sort(key=merger.natural_sort_key)
@@ -478,12 +508,14 @@ class FileListWidget(QWidget):
         rows = sorted({i.row() for i in self.list_widget.selectedIndexes()}, reverse=True)
         for row in rows:
             if row < len(self._files):
-                del self._files[row]
+                removed = self._files.pop(row)
+                self._image_counts.pop(removed, None)
         self._refresh_list()
         self.files_changed.emit(self._files.copy())
 
     def clear(self):
         self._files.clear()
+        self._image_counts.clear()
         self._refresh_list()
         self.files_changed.emit(self._files.copy())
 
@@ -505,6 +537,12 @@ class FileListWidget(QWidget):
 
     def get_files(self) -> list:
         return self._files.copy()
+
+    def total_image_count(self) -> Optional[int]:
+        counts = [self._image_counts.get(path) for path in self._files]
+        if any(count is None for count in counts):
+            return None
+        return sum(counts)
 
     def _sync_files_from_list(self):
         ordered_files = []
@@ -538,6 +576,12 @@ class FileListWidget(QWidget):
             if os.path.isfile(filepath):
                 size_mb = os.path.getsize(filepath) / (1024 * 1024)
                 label += f"    {size_mb:.1f} MB"
+            image_count = self._image_counts.get(filepath)
+            if image_count is None:
+                label += " · ? images"
+            else:
+                unit = "image" if image_count == 1 else "images"
+                label += f" · {image_count} {unit}"
             item = QListWidgetItem(label)
             item.setData(Qt.ItemDataRole.UserRole, filepath)
             self.list_widget.addItem(item)
@@ -697,6 +741,10 @@ class MainWindow(QMainWindow):
         hint = QLabel("(editable at save)")
         hint.setObjectName("subtext")
         h.addWidget(hint)
+
+        self.total_images_lbl = QLabel("")
+        self.total_images_lbl.setObjectName("subtext")
+        h.addWidget(self.total_images_lbl)
         h.addStretch()
 
         w.setVisible(False)
@@ -790,6 +838,12 @@ class MainWindow(QMainWindow):
             ext = ".pdf" if self.pdf_cb.isChecked() else ".cbz"
             stems = [Path(f).stem for f in files]
             self.smart_name_lbl.setText(SmartNamer().suggest(stems, ext))
+            total = self.file_list.total_image_count()
+            if total is None:
+                self.total_images_lbl.setText("Total: ? images")
+            else:
+                unit = "image" if total == 1 else "images"
+                self.total_images_lbl.setText(f"Total: {total} {unit}")
 
     def _on_pdf_toggled(self):
         is_pdf = self.pdf_cb.isChecked()

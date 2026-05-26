@@ -112,3 +112,23 @@ def test_find_archives_in_folder_non_recursive(tmp_path):
     (sub / "nested.cbz").write_bytes(b"x")
     merger = CBZMerger()
     assert merger.find_archives_in_folder(str(tmp_path)) == []
+
+
+def test_count_images_in_zip_archive(tmp_path):
+    archive = tmp_path / "vol001.cbz"
+    with zipfile.ZipFile(archive, "w") as zf:
+        zf.writestr("001.jpg", b"x")
+        zf.writestr("nested/002.PNG", b"x")
+        zf.writestr("notes.txt", b"x")
+    merger = CBZMerger()
+    assert merger.count_images_in_item(str(archive)) == 2
+
+
+def test_count_images_in_folder(tmp_path):
+    (tmp_path / "001.jpg").write_bytes(b"x")
+    (tmp_path / "readme.txt").write_bytes(b"x")
+    sub = tmp_path / "chapter"
+    sub.mkdir()
+    (sub / "002.webp").write_bytes(b"x")
+    merger = CBZMerger()
+    assert merger.count_images_in_item(str(tmp_path)) == 2

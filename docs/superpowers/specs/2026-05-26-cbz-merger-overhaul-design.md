@@ -7,6 +7,12 @@
 
 ## Revision Notes
 
+### 2.0.3 — 2026-05-26
+
+- File list rows show per-item image counts after file size.
+- Smart filename bar shows total image count for the current merge list.
+- Image counts are cached per path inside `FileListWidget` and refreshed when items are added or cleared.
+
 ### 2.0.2 — 2026-05-26
 
 - File list now supports drag-and-drop reordering inside the list.
@@ -66,6 +72,7 @@ Encapsulates the file list area: QListWidget + drag-and-drop registration + visu
 - `move_up()`
 - `move_down()`
 - Drag items within the list to reorder merge sequence
+- Shows per-item image count and exposes total image count for the smart filename bar
 - `get_files()` → List[str]
 
 #### `MainWindow(QMainWindow)`
