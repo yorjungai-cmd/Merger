@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """
-CBZ Merger 2.0 — Comic Book Archive Merger Tool
+CBZ Merger — Comic Book Archive Merger Tool
 Crafted by Yor Anupong
 Combines CBZ, CBR, ZIP, RAR files and image folders into a single CBZ or PDF.
 Modern Clean UI · Light/Dark theme · PyQt6
 """
+
+__version__ = "2.0.1"
+__author__  = "Yor Anupong"
+APP_NAME    = "CBZ Merger"
 
 import os
 import sys
@@ -508,7 +512,7 @@ class MainWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("CBZ Merger 2.0")
+        self.setWindowTitle(f"{APP_NAME} {__version__}")
         self.setMinimumSize(700, 600)
         self.resize(950, 750)
 
@@ -565,7 +569,7 @@ class MainWindow(QMainWindow):
         h.addWidget(icon)
 
         titles = QVBoxLayout()
-        title = QLabel("CBZ Merger 2.0")
+        title = QLabel(f"{APP_NAME} {__version__}")
         title.setFont(QFont("Segoe UI", 14, QFont.Weight.Bold))
         sub = QLabel("Combine comic archives & image folders")
         sub.setObjectName("subtext")
@@ -716,7 +720,7 @@ class MainWindow(QMainWindow):
         h = QHBoxLayout(w)
         h.setContentsMargins(20, 0, 20, 0)
 
-        ver = QLabel("v2.0 · Crafted by Yor Anupong")
+        ver = QLabel(f"v{__version__} · Crafted by {__author__}")
         ver.setObjectName("subtext")
         h.addWidget(ver)
         h.addStretch()
@@ -864,7 +868,7 @@ class MainWindow(QMainWindow):
 
 def main():
     app = QApplication(sys.argv)
-    app.setApplicationName("CBZ Merger 2.0")
+    app.setApplicationName(f"{APP_NAME} {__version__}")
     window = MainWindow()
     window.show()
     sys.exit(app.exec())
