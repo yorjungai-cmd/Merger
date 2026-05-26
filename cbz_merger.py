@@ -297,6 +297,8 @@ class CBZMerger:
 class SmartNamer:
     """Suggests a merged output filename from a list of input file stems."""
 
+    _BRACKET_PAIRS = {'(': ')', '[': ']'}
+
     def suggest(self, stems: list, extension: str) -> str:
         if not stems:
             return f"Merged{extension}"
@@ -308,15 +310,30 @@ class SmartNamer:
             return f"{stems[0]}_Merged{extension}"
 
         prefixes = [self._prefix_before_last_number(s) for s in stems]
-        common = self._common_prefix(prefixes).rstrip(" -_.")
+        suffixes = [self._suffix_after_last_number(s) for s in stems]
+        common = self._common_prefix(prefixes)
 
         min_n, max_n = min(numbers), max(numbers)
         if min_n == max_n:
             return f"{stems[0]}{extension}"
 
-        if common:
-            return f"{common} {min_n}-{max_n}{extension}"
-        return f"{min_n}-{max_n}{extension}"
+        # Detect bracket wrapper: common ends with '(' or '[' AND all suffixes
+        # start with the matching closer — preserve it around the range.
+        open_d = close_d = ''
+        if common and common[-1] in self._BRACKET_PAIRS:
+            candidate = self._BRACKET_PAIRS[common[-1]]
+            if all(s.startswith(candidate) for s in suffixes):
+                open_d, close_d = common[-1], candidate
+                common = common[:-1]   # strip opener; we'll re-add it around range
+
+        common = common.rstrip(' -_.')
+
+        if open_d:
+            base = f"{common} {open_d}{min_n}-{max_n}{close_d}" if common else f"{open_d}{min_n}-{max_n}{close_d}"
+        else:
+            base = f"{common} {min_n}-{max_n}" if common else f"{min_n}-{max_n}"
+
+        return f"{base}{extension}"
 
     def _last_number(self, stem: str) -> Optional[int]:
         parts = re.split(r'(\d+)', stem)
@@ -334,6 +351,16 @@ class SmartNamer:
         if last_digit_idx == -1:
             return stem
         return ''.join(parts[:last_digit_idx])
+
+    def _suffix_after_last_number(self, stem: str) -> str:
+        parts = re.split(r'(\d+)', stem)
+        last_digit_idx = -1
+        for i, p in enumerate(parts):
+            if p.isdigit():
+                last_digit_idx = i
+        if last_digit_idx == -1:
+            return ''
+        return ''.join(parts[last_digit_idx + 1:])
 
     def _common_prefix(self, strings: list) -> str:
         if not strings:

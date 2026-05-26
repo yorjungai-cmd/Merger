@@ -45,3 +45,24 @@ def test_pdf_extension_preserved():
 def test_two_files_simple_range():
     namer = SmartNamer()
     assert namer.suggest(["Manga 10", "Manga 20"], ".cbz") == "Manga 10-20.cbz"
+
+
+def test_parenthesized_number_range():
+    namer = SmartNamer()
+    result = namer.suggest(
+        ["[Nishikida Keishi] GRAPARA! (1)",
+         "[Nishikida Keishi] GRAPARA! (2)",
+         "[Nishikida Keishi] GRAPARA! (3)"],
+        ".cbz"
+    )
+    assert result == "[Nishikida Keishi] GRAPARA! (1-3).cbz"
+
+
+def test_square_bracket_number_range():
+    namer = SmartNamer()
+    assert namer.suggest(["Title [1]", "Title [2]", "Title [3]"], ".cbz") == "Title [1-3].cbz"
+
+
+def test_parenthesized_number_two_files():
+    namer = SmartNamer()
+    assert namer.suggest(["Vol (10)", "Vol (20)"], ".cbz") == "Vol (10-20).cbz"
