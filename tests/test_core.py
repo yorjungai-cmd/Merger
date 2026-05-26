@@ -82,3 +82,10 @@ def test_merge_produces_valid_cbz(tmp_path):
 def test_merge_empty_input_returns_false(tmp_path):
     merger = CBZMerger()
     assert merger.merge_archives([], str(tmp_path / "out.cbz")) is False
+
+
+def test_extract_unsupported_extension_returns_false(tmp_path):
+    f = tmp_path / "archive.tar"
+    f.write_bytes(b"fake")
+    merger = CBZMerger()
+    assert merger.extract_archive(str(f), str(tmp_path)) is False

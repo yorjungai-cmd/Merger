@@ -6,11 +6,9 @@ Modern Clean UI · Light/Dark theme · PyQt6
 """
 
 import os
-import sys
 import re
 import zipfile
 import tempfile
-import threading
 from pathlib import Path
 from typing import Optional
 
@@ -77,9 +75,11 @@ class CBZMerger:
                 with rarfile.RarFile(archive_path, 'r') as rf:
                     rf.extractall(extract_to)
                 return True
+            else:
+                self.log(f"⚠️ Unsupported archive format: {ext}")
         except Exception as e:
             self.log(f"❌ Error extracting {archive_name}: {e}")
-        return False  # covers unsupported ext and exception paths
+        return False
 
     def natural_sort_key(self, path: str):
         name = Path(path).name if isinstance(path, str) else str(path)
